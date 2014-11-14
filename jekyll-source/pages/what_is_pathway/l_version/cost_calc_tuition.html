@@ -1,0 +1,43 @@
+---
+layout: base
+section: What is Pathway
+version: l
+title: Calculate Tuition
+breadcrumbs:
+- {title: Cost, url: cost.html}
+---
+<!-- Start to the content area -->
+<div id="main-container" class="container">
+	<div class="row row-offcanvas row-offcanvas-right">
+		<div class="col-xs-12 col-sm-8 main-content">
+			<button type="button" onClick="open_side();" class="navbar-toggle sidebar-btn collapsed">
+				<img id="arrow-icon" src="{{site.baseurl}}img/arrow.png" width="14" height="14" alt="arrow">
+			</button>
+			<div class="hero pf-page-header">
+				<img src="{{site.baseurl}}img/wip/icons/lversion.png" alt="standardLogo">
+				<h1 id="Standard" class="page-title">L Version</h1>
+				<p class="page-summary">For students who have intermediate-low English proficiency <a target="_blank" href="https://byui.az1.qualtrics.com/SE/?SID=SV_cShGDUV2VTJZgb3"><img style="margin: 10px 0 0 0; position: relative;" src="{{site.baseurl}}img/EnglishTestButton.png"></a> </p>
+			</div>
+			<div class="pf-section">
+				<div class="pf-page-header">
+					<img src="{{site.baseurl}}img/wip/icons/piggy.png" alt="piggy">
+					<h2 id="CalculatingTuition" class="subheading">Calculate Tuition</h2>
+				</div>
+				<div class="main-content">
+					<p>Tuition is based on location and the number of BYU-Idaho course credits a student takes each semester.</p> 
+					<p class="p-heading3 red">COURSE CREDIT:</p><p class="info-block">  A measurement used to quantify the load of work for a specific course that enables universities to set a requirement to graduate.</p>
+					<br>
+					<br>
+					<p>Pathway L version courses are 5 credits each.</p>
+				</div>
+				<h3 class="p-heading turquoise">Number of Online Credits per Semester</h3>
+				<img class="img-responsive img-space" src="{{site.baseurl}}img/calculate-tuition/semester_credit_Lversion.png" alt="credits-per-semester" width="100%">
+				<!-- tuition widget goes here -->
+				[TUITION WIDGET GOES HERE]
+			</div>
+			<a href="{{site.baseurl}}pages/what_is_pathway/l_version/cost.html" class="previous turquoise"><< Cost</a>
+			<a href="{{site.baseurl}}pages/what_is_pathway/l_version/degree.html" class="next turquoise">Degree Options >></a>
+		</div>
+		{% include sidebars/what-is-pathway.html %}
+	</div>
+</div>

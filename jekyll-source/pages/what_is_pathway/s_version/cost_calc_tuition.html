@@ -1,0 +1,45 @@
+---
+layout: base
+section: What is Pathway
+version: standard
+title: Calculate Tuition
+breadcrumbs:
+- {title: Cost, url: cost.html}
+---
+<!-- Start to the content area -->
+
+<div id="main-container" class="container">
+	<div class="row row-offcanvas row-offcanvas-right">
+		<div class="col-xs-12 col-sm-8 main-content">
+			<button type="button" onClick="open_side();" class="navbar-toggle sidebar-btn collapsed">
+				<img id="arrow-icon" src="{{site.baseurl}}img/arrow.png" width="14" height="14" alt="arrow">
+			</button>
+			<div class="hero pf-page-header">
+				<img src="{{site.baseurl}}img/wip/icons/standard.png" alt="standardLogo">
+				<h1 id="Standard" class="page-title">Standard Version</h1>
+				<p class="page-summary">For students who are proficient in English</p>
+			</div>
+			<div class="pf-section">
+				<div class="pf-page-header">
+					<img src="{{site.baseurl}}img/wip/icons/piggy.png" alt="piggy">
+					<h2 id="CalculatingTuition" class="subheading">Calculate Tuition</h2>
+				</div>
+				<div class="main-content">
+					<p>Tuition is based on location and the number of BYU-Idaho course credits a student takes each semester.</p> 
+					<p class="p-heading3">COURSE CREDIT:</p>
+					<p class="info-block">  A measurement used to quantify the load of work for a specific course that enables universities to set a requirement to graduate.</p>
+					<p>Pathway standard version courses are either 2 or 3 credits each.</p>
+				</div>
+				<h3 class="p-heading red">Number of Online Credits per Semester</h3>
+				<img class="img-responsive img-space" src="{{site.baseurl}}img/calculate-tuition/semesters_blue.png" alt="credits-per-semester" width="100%">
+				<img class="img-responsive img-space" src="{{site.baseurl}}img/calculate-tuition/semesters_red.png" alt="credits-per-semester" width="100%">
+				<h3 class="p-heading red">Local Per Credit Tuition Cost</h3>
+				<!-- tuition widget goes here -->
+				[TUITION WIDGET GOES HERE]
+			</div>
+			<a href="{{site.baseurl}}pages/what_is_pathway/l_version/cost.html" class="previous red"><< Cost</a>
+			<a href="{{site.baseurl}}pages/what_is_pathway/l_version/degree.html" class="next red">Degree Options >></a>
+		</div>
+		{% include sidebars/what-is-pathway.html %}
+	</div>
+</div>

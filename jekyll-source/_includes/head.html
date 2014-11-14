@@ -1,0 +1,31 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>{{site.title}}{% if page.title %} - {{page.title}}{% endif %}{% if (page.title == blank) and (page.section != "Home") %} - {{page.section}}{% endif %}</title>
+	
+	<!-- Browser Icons -->
+	<link rel="shortcut icon" href="{{site.baseurl}}docs-assets/ico/favicon.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="{{site.baseurl}}favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="{{site.baseurl}}favicon/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="{{site.baseurl}}favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}favicon/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="{{site.baseurl}}favicon/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="{{site.baseurl}}favicon/favicon-160x160.png" sizes="160x160" />
+	<link rel="icon" type="image/png" href="{{site.baseurl}}favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="{{site.baseurl}}favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="{{site.baseurl}}favicon/favicon-16x16.png" sizes="16x16" />
+	<meta name="msapplication-TileColor" content="#F3A91E" />
+	<meta name="msapplication-TileImage" content="{{site.baseurl}}favicon/mstile-144x144.png" />
+
+	<!-- Bootstrap Core CSS -->
+	<link href="{{site.baseurl}}dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Page Specific Stylesheet -->
+	<link href="{{site.baseurl}}styles/{{page.section | downcase | replace: " ","_"}}.css" rel="stylesheet">
+</head>
