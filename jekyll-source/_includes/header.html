@@ -8,7 +8,7 @@
        <form class="navbar-right pull-right ng-pristine ng-valid">
         <!-- Sign-in / User button -->
         <div class="btn-group">
-          <a class="btn signin-btn" style="text-decoration: none;text-transform: none;" href="{{site.baseurl}}"><span class="hidden-xs">{{site.demoStudent}}</span><img class="visible-xs" alt="user icon" src="{{site.baseurl}}img/usernameman.png" style="padding:0 10px; height:20px;"></a>
+          <a class="btn signin-btn" style="text-decoration: none;text-transform: none;" href="{{site.baseurl}}"><span class="hidden-xs">{{site.demoStudent | truncatewords: "1" | remove: "..." | truncate: "8", ""}}</span><img class="visible-xs" alt="user icon" src="{{site.baseurl}}img/usernameman.png" style="padding:0 10px; height:20px;"></a>
           <button type="button" class="btn signin-btn dropdown-toggle" data-toggle="dropdown">
             <span class="caret"></span>
             <span class="sr-only">Dropdown</span>
