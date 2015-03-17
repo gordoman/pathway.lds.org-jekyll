@@ -1,0 +1,63 @@
+---
+layout: base
+section: What is Pathway
+version: l
+title: Admission Requirements
+add-external-scripts:
+- script: "https://byuipathway.github.io/deadlines-widget/deadlines-accordion.js"
+---
+<!-- Start to the content area -->
+<div id="main-container" class="container">
+	<div class="row row-offcanvas row-offcanvas-right">
+		<div class="col-xs-12 col-sm-8 main-content">
+			<button type="button" onClick="open_side();" class="navbar-toggle sidebar-btn collapsed">
+				<img id="arrow-icon" src="{{site.baseurl}}img/arrow.png" width="14" height="14" alt="arrow">
+			</button>
+			<div class="hero pf-page-header">
+				<img src="{{site.baseurl}}img/wip/icons/lversion.png" alt="standardLogo">
+				<h1 id="Standard" class="page-title">L Version</h1>
+				<p class="page-summary">For students who have intermediate-low English proficiency <a target="_blank" href="https://byui.az1.qualtrics.com/SE/?SID=SV_cShGDUV2VTJZgb3"><img style="margin: 10px 0 0 0; position: relative;" src="{{site.baseurl}}img/EnglishTestButton.png"></a></p>
+			</div>
+			<div class="pf-section">
+				<div class="pf-page-header">
+					<img src="{{site.baseurl}}img/wip/icons/checklist.png" alt="checklist">
+					<h2 id="AdmissionRequirements" class="subheading">Admission Requirements</h2>
+				</div>
+				<div class="main-content">
+					<h3 class="p-heading turquoise">Simple Admission Process</h3>
+					<ul>
+						<li><strong><em>NO</em></strong> application fee</li>
+						<li><strong><em>NO</em></strong> standardized scores (ACT/SAT)</li>
+						<li><strong><em>NO</em></strong> ecclesiastical endorsement<sup>+</sup></li>
+					</ul>
+					<br>
+					<p>To be eligible to participate in Pathway, applicants must:</p>
+					<ul>
+						<li>Be a member of The Church of Jesus Christ of Latter-day Saints</li>
+						<li>Attend the weekly gathering during Pathway (one full year)</li>
+						<li>Strive to live by the <a href="http://www.byui.edu/student-honor-office/ces-honor-code" target="_blank">BYU-Idaho Honor Code</a></li>
+						<li>Be proficient in listening to, speaking, reading, and writing English (proficiency assessment may be required)</li>
+						<li>Be capable of entry-level college academic work with post-secondary disability accommodations, if qualified and required</li>
+						<li>Be able to access a computer with high-speed Internet and webcam/video chat capabilities on a daily basis</li>
+						<li>Live within a reasonable commuting distance of a Pathway site</li>
+					</ul>
+					<br>
+					<!-- Start Deadline Widget -->
+					<link rel="stylesheet" type="text/css" href="https://byuipathway.github.io/deadlines-widget/css/main.css">
+					<div id="deadline_widget">
+						Loading JSON...
+					</div>
+					<!-- End Widget -->
+					<br><br>
+					<a href=""><img id="location-icon" src="{{site.baseurl}}img/admission/location_blue.png" alt="location"></a>
+					<div class="click-here turquoise"><a href="#joinpathway">Click here to search for a Pathway location/site near you and apply.</a></div>
+					<img class="img-space" id="adm-img" src="{{site.baseurl}}img/admission/worldmap.png" alt="location map" width="100%"></a>
+					<div class="main-content"><div id="footnote"><strong>+</strong>&nbsp;An ecclesiastical endorsement is required at the end of Pathway for those students who choose to continue to the BYU-Idaho Online Degree Program.</div></div>
+				</div>
+				<a href="{{site.baseurl}}pages/what_is_pathway/l_version/service_missionaries.html" class="previous turquoise">&lt;&lt; Service Missionaries</a>
+				<a href="{{site.baseurl}}pages/what_is_pathway/l_version/cost.html" class="next turquoise">Cost &gt;&gt;</a>	
+			</div>
+		</div>
+		{% include sidebars/what-is-pathway.html %}
+	</div>
+</div>
