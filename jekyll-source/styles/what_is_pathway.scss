@@ -7,3 +7,62 @@
 @import "sidebar";
 @import "BreadCrumb";
 @import "content_body";
+
+/*Course Descriptions Pages*/
+.c-heading{
+	font-size: 180%;
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, serif;
+	letter-spacing: 1px;
+	position: relative;
+	cursor: pointer;
+	padding-left: 25px;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top:4px;
+		width:0;
+		height: 0;
+		border: 7px solid transparent;
+		border-left: 12px solid $red;
+		transition:all .3s;
+	}
+	&.active:before {
+	    -ms-transform: rotate(90deg); /* IE 9 */
+	    -ms-transform-origin: 0% 50%; /* IE 9 */
+	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	    -webkit-transform-origin: 0% 50%; /* Chrome, Safari, Opera */
+	    transform: rotate(90deg);
+	    transform-origin: 0% 50%;
+	}
+}
+
+.c-heading2{
+	text-transform: uppercase;
+	font-size: 125%;
+	font-weight: bold;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+}
+
+.c-heading3{
+	text-transform: uppercase;
+	font-size: 120%;
+	font-style: italic;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+}
