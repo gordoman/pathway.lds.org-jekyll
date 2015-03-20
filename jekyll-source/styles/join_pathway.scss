@@ -6,3 +6,11 @@
 @import "header-footer";
 @import "sidebar";
 @import "BreadCrumb";
+
+.page-title {
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, serif;
+	color: $teal;
+	text-transform: uppercase;
+	letter-spacing: 0.09em;
+	font-size: 250%;
+}
