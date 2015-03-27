@@ -7,3 +7,94 @@
 @import "sidebar";
 @import "BreadCrumb";
 @import "content_body";
+
+/*Course Descriptions Pages*/
+.c-heading{
+	font-size: 180%;
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, serif;
+	letter-spacing: 1px;
+	position: relative;
+	cursor: pointer;
+	padding-left: 23px;
+	margin: 25px 0 5px 0;
+	span {
+		font-family: Helvetica, sans-serif;
+		font-size: 65%;
+		font-style: italic;
+	}
+	&.red{
+		color:$red;
+		&:before {
+			border-left-color: $red;
+		}
+	}
+	&.turquoise{
+		color:$turquoise;
+		&:before {
+			border-left-color: $turquoise;
+		}
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top:7px;
+		width:0;
+		height: 0;
+		border: 7px solid transparent;
+		border-left: 12px solid black;
+		transition:all .3s;
+		-ms-transform-origin: 10% 50%; /* IE 9 */
+		-webkit-transform-origin: 10% 50%; /* Chrome, Safari, Opera */
+		transform-origin: 10% 50%;
+	}
+	&.active:before {
+	    -ms-transform: rotate(90deg); /* IE 9 */
+	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	    transform: rotate(90deg);
+	}
+}
+
+.c-heading2{
+	text-transform: uppercase;
+	font-size: 120%;
+	font-weight: bold;
+	margin: 30px 0 0 0;
+	letter-spacing: 1px;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+}
+
+.c-heading3{
+	text-transform: uppercase;
+	font-size: 110%;
+	font-style: italic;
+	margin: 3px 0;
+	letter-spacing: 1px;
+	&.red{
+		color:$red;
+	}
+	&.turquoise{
+		color:$turquoise;
+	}
+}
+.c-section {
+	margin-left: 25px;
+}
+
+.icon-bullet {
+	position: relative;
+	display: block;
+	font-size: 100%;
+	font-weight: normal;
+	padding: 11px 0 15px 60px;
+
+	img.icon {
+		position: absolute;
+		left:0;
+	}
+}

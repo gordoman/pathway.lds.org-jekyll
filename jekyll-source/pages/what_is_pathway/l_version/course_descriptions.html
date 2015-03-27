@@ -3,60 +3,49 @@ layout: base
 section: What is Pathway
 version: l
 title: Course Descriptions
+add-scripts:
+- script: "js/accordion.js"
+- script: "js/drawer.js"
 ---
-<!-- Start to the content area -->
+
 <div id="main-container" class="container">
   <div class="row row-offcanvas row-offcanvas-right">
     <div class="col-xs-12 col-sm-8 main-content">
-      <div class="hero pf-page-header no-icon">
-        <h1 id="Standard" class="page-title">Course Descriptions</h1>
-        <h3 class="subheading turquoise">L Version</h3>
+      <button type="button" onClick="open_side();" class="navbar-toggle sidebar-btn collapsed">
+        <img id="arrow-icon" src="{{site.baseurl}}img/arrow.png" width="14" height="14" alt="arrow">
+      </button>
+      <div class="hero pf-page-header">
+        <img src="{{site.baseurl}}img/wip/icons/lversion.png" alt="L-VersionLogo">
+        <h1 id="lversion" class="page-title">L Version</h1>
+        <p class="page-summary">For students who have intermediate-low English proficiency <a target="_blank" href="https://byui.az1.qualtrics.com/SE/?SID=SV_cShGDUV2VTJZgb3"><img style="margin: 10px 0 0 0; position: relative;" src="{{site.baseurl}}img/EnglishTestButton.png"></a> </p>
       </div>
-      <div class="pf-section no-icon">
-        <h4 class="c-heading turquoise">Courses</h4>
+      <div class="pf-section">
+        <div class="pf-page-header"> <img src="{{site.baseurl}}img/wip/icons/books.png" width="45" height="46" alt="gear">
+          <h2 id="HowPathwayWorks" class="subheading">Course Descriptions</h2>
+        </div>
+        <p>Pathway's academic courses are offered online through BYU-Idaho. Religion classes are offered through local institute programs or online through BYU-Idaho, depending on a student's age.</p>
+        <h4 class="c-heading turquoise accordion-1">BYU-Idaho Academic Courses <span>(for all students)</span></h4>
+        <div class="accordion c-section">
         <h5 class="c-heading2 turquoise">GS 120L LIFE SKILLS AND ENGLISH</h5>
         <h6 class="c-heading3 turquoise">5 CREDITS</h6>
-
-        <p>GS 120L teaches basic life skills that can lead to success in both
-          personal life and academic studies. The three main areas of study
-          are: learning to learn, self-sufficiency, and disciple leadership. The
-          topics studied include study skills, career and academic planning,
-          provident living, budgeting, goal-setting, time management, learning
-          to lead by teaching others, and blessing others with what is learned.
-          English language development is also emphasized as everyday
-          vocabulary, as well as mechanics and grammar, are applied in
-          speaking, listening, reading, and writing.
+        <p>GS 120L teaches basic life skills that can lead to success in both personal life and academic studies. The three main areas of study are: learning to learn, self-sufficiency, and disciple leadership. The topics studied include study skills, career and academic planning, provident living, budgeting, goal-setting, time management, learning to lead by teaching others, and blessing others with what is learned. English language development is also emphasized as everyday vocabulary, as well as mechanics and grammar, are applied in speaking, listening, reading, and writing.
         </p>
-        <br>
         <h5 class="c-heading2 turquoise">ENG 106L BASIC WRITING AND ENGLISH</h5>
         <h6 class="c-heading3 turquoise">5 CREDITS</h6>
-
-        <p>ENG 106L teaches basic writing conventions. Topics in this course
-          include: understanding the writing process; writing effective
-          sentences, paragraphs, and short essays; patterns of organization;
-          rhetorical modes and purposes; audience analysis; the composing
-          process; and editing. English language development is emphasized
-          with a focus on the fundamentals of English grammar, including the
-          major verb tenses and sentence structure patterns and their
-          components.
+        <p>ENG 106L teaches basic writing conventions. Topics in this course include: understanding the writing process; writing effective sentences, paragraphs, and short essays; patterns of organization; rhetorical modes and purposes; audience analysis; the composing process; and editing. English language development is emphasized with a focus on the fundamentals of English grammar, including the major verb tenses and sentence structure patterns and their components.
         </p>
-        <br>
-        <h5 class="c-heading2 turquoise">MATH 100L INTRO TO ALGEBRA, FINANCE, AND ENGLISH</h5>
+        <h5 class="c-heading2 turquoise">MATH 100L INTRO TO ALGEBRA, FINANCE AND ENGLISH</h5>
         <h6 class="c-heading3 turquoise">5 CREDITS</h6>
-
-        <p>MATH 100L is designed to help students recap, learn, and retain the
-          fundamentals of basic mathematics and algebra. Students will gain
-          competency in entry-level college math skills; use Excel spreadsheet
-          software to perform mathematical and financial computations; apply
-          math skills to financial decisions such as loan payments, savings, and
-          budgeting; and discuss provident living topics (e.g., self-reliance,
-          stewardship, and personal finance). English language development is
-          also emphasized as math and everyday vocabulary, as well as
-          mechanics and grammar, are applied in speaking, listening, reading,
-          and writing.
+        <p>MATH 100L is designed to help students recap, learn, and retain the fundamentals of basic mathematics and algebra. Students will gain competency in entry-level college math skills; use Excel spreadsheet software to perform mathematical and financial computations; apply math skills to financial decisions such as loan payments, savings, and budgeting; and discuss provident living topics (e.g., self-reliance, stewardship, and personal finance). English language development is also emphasized as math and everyday vocabulary, as well as mechanics and grammar, are applied in speaking, listening, reading, and writing.
         </p>
-        <br>
-        <br>
+        </div>
+        <h4 class="c-heading turquoise accordion-2">Institute Courses <span>(for Age 18-30 students)</span></h4>
+        <div class="accordion c-section">
+        <h5 class="c-heading2 turquoise">INSTITUTE Courses</h5>
+        <h6 class="c-heading3 turquoise">2 CREDITS</h6>
+        <p>The institute courses 18–30-year-old students take vary at each institute location. Students should contact their <a target="_blank" href="http://institute.lds.org/find-institute">local institute</a> to find out which courses are offered.
+        </p>
+        </div>
       </div>
     </div>
     {% include sidebars/what-is-pathway.html %}
