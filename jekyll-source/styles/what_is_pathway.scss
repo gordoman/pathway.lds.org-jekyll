@@ -85,3 +85,16 @@
 .c-section {
 	margin-left: 25px;
 }
+
+.icon-bullet {
+	position: relative;
+	display: block;
+	font-size: 100%;
+	font-weight: normal;
+	padding: 11px 0 15px 60px;
+
+	img.icon {
+		position: absolute;
+		left:0;
+	}
+}
