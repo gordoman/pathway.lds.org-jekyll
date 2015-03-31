@@ -1,0 +1,73 @@
+---
+---
+
+@import "global";
+@import "FunctionLibrary";
+@import "header-footer";
+@import "sidebar";
+@import "BreadCrumb";
+
+.contact-navigator {
+	position: relative;
+	margin: 10px -8px;
+	overflow: hidden;
+
+	.contact-tab {
+		display: table;
+		width: 20%;
+		float: left;
+		text-align: center;
+		padding: 0 8px;
+
+		.tab-inner {
+			position: relative;
+			display: table-cell;
+			border: black 1px solid;
+			text-transform: uppercase;
+			color: white;
+			letter-spacing: 1px;
+			padding: 3px 5px 11px 5px;
+			line-height: 130%;
+			height: 60px;
+			vertical-align: middle;
+
+			&:after {
+				content: "";
+				display: block;
+				position: absolute;
+				border: 7px transparent solid;
+				border-bottom-width: 0;
+				border-top-color: rgba(0,0,0,.4);
+				width: 0;
+				height: 0;
+				bottom: 4px;
+				margin-left: auto;
+				margin-right: auto;
+				left: 0;
+				right: 0;
+
+			}
+
+			&.orange {
+				background: $pathway-orange;
+				border-color: $pathway-orange;
+			}
+			&.turquoise {
+				background: $turquoise;
+				border-color: $turquoise;
+			}
+			&.red {
+				background: $red;
+				border-color: $red;
+			}
+			&.teal {
+				background: $teal;
+				border-color: $teal;
+			}
+			&.green {
+				background: $green;
+				border-color: $green;
+			}
+		}
+	}
+}
