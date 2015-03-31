@@ -1,4 +1,6 @@
-# Site settings
+# Jekyll Site Build Settings
+# THIS FILE SHOULD RARELY BE EDITED
+
 title: "Pathway"
 baseurl: "/working-build/" # the subpath of your site, e.g. /blog/
 url: "https://pathway.lds.org/" # the base hostname & protocol for your site
