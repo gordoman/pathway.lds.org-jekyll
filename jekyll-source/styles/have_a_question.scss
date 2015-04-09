@@ -9,7 +9,7 @@
 
 .contact-navigator {
 	position: relative;
-	margin: 10px -8px;
+	margin: -1px -5px;
 	overflow: hidden;
 
 	.contact-tab {
@@ -17,7 +17,16 @@
 		width: 20%;
 		float: left;
 		text-align: center;
-		padding: 0 8px;
+		padding: 0 5px;
+
+		&.active {
+			.tab-inner {
+				background: white !important;
+				color: black;
+				border-bottom: 0 !important;
+				height: 70px;
+			}
+		}
 
 		.tab-inner {
 			position: relative;
@@ -31,6 +40,7 @@
 			height: 60px;
 			vertical-align: middle;
 			font-weight: bold;
+			text-decoration: none;
 
 			&:after {
 				content: "";
@@ -76,6 +86,30 @@
 				cursor: pointer;
 
 			}
+		}
+	}
+}
+
+.tab-content {
+	.tab-pane {
+		border: 1px solid black;
+		padding: 10px;
+		color: black;
+
+		&.orange {
+			border-color: $pathway-orange;
+		}
+		&.turquoise {
+			border-color: $turquoise;
+		}
+		&.red {
+			border-color: $red;
+		}
+		&.teal {
+			border-color: $teal;
+		}
+		&.green {
+			border-color: $green;
 		}
 	}
 }
