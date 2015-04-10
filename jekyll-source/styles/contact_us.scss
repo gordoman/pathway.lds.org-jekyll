@@ -40,6 +40,15 @@
 	width: 125px;
 }
 
+.more-help {
+	display: inline-block;
+	background-image: url("{{site.baseurl}}img/contact-us/Need-More-Help.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50px;
+	width: 50px;
+}
+
 form div{
 	width: 100%;
 }
