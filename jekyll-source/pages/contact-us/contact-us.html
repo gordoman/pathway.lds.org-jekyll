@@ -35,7 +35,7 @@ section: Contact Us
 						<h3>Could these help?</h3>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 							<p>
-								<a href="#apply">How do I apply for Pathway?</a> <br/>
+								<a href="#apply">How do I apply for Pathway?</a> <br/><br/>
 								<a href="#admission">When will I know if I am admitted?</a>
 							</p>
 						</div>
@@ -48,16 +48,32 @@ section: Contact Us
 						<div id="admission"></div>
 						<div id="deadline"></div>
 					</div>
+					<hr/>
 				</form>
-				<hr/>
-				<h2><span class="more-help"></span>How would you like to contact us?</h2>
+				<h2><span class="more-help"></span> How would you like to contact us?</h2>
 				<br/>
 				<div>
-					<span class="recommanded"><a href=""><span id="Phone" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></span></a></span>
-					<span class="recommanded"><a href=""><span id="Email" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></span></a></span>
-					<span class="recommanded-on"><a href=""><span id="Chat" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></span></a></span>
+					<a href="" class="iconic col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="Phone" src="{{site.baseurl}}img/contact-us/Phone.png"/></a>
+					<a href="" class="iconic col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="Email" src="{{site.baseurl}}img/contact-us/Email.png"/></a>
+					<a href="" class="iconic col-lg-4 col-md-4 col-sm-4 col-xs-4"><img id="Chat" src="{{site.baseurl}}img/contact-us/Chat.png" class="recommended"/></a>
 				</div>
+				<p>test</p>
+				<p>test</p>
+				<p>test</p>
+				<p>test</p>
+				<p>test</p>
 			</div>
+			<script type="text/javascript">
+				$("#Phone").hover(function(){
+					$(this).attr('src','{{site.baseurl}}img/contact-us/Phone_hover.png');
+				});
+				$("#Email").hover(function(){
+					$(this).attr('src','{{site.baseurl}}img/contact-us/Email_hover.png');
+				});
+				$("#Chat").hover(function(){
+					$(this).attr('src','{{site.baseurl}}img/contact-us/Chat_hover.png');
+				});
+			</script>
 		</div>
 	</div>
 </div>

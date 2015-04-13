@@ -7,37 +7,24 @@
 @import "sidebar";
 @import "BreadCrumb";
 
-#Phone {
+.iconic {
 	display: inline-block;
-	background-image: url("{{site.baseurl}}img/contact-us/Phone.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 75px;
-}
+	height: 150px;
 
-#Email {
-	display: inline-block;
-	background-image: url("{{site.baseurl}}img/contact-us/Email.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 75px;
-}
+	.recommended {
+		border-top: solid 1px red;
+		border-left: solid 1px red;
+		border-right: solid 1px red;
+		height: 90px;
+	}
 
-#Chat {
-	display: inline-block;
-	background-image: url("{{site.baseurl}}img/contact-us/Chat.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 75px;
-}
-
-.recommended-on {
-	display: inline-block;
-	background-image: url("{{site.baseurl}}img/contact-us/Recommended-Square.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 128px;
-	width: 125px;
+	.recommended::after {
+		display: block;
+		content: "recommended";
+		background-color: red;
+		color: white;
+		text-align: center;
+	}
 }
 
 .more-help {
@@ -47,6 +34,7 @@
 	background-position: center;
 	height: 50px;
 	width: 50px;
+	margin-top: 10px;
 }
 
 form div{
