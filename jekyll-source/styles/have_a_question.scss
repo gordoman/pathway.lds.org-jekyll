@@ -95,9 +95,26 @@
 		border: 1px solid black;
 		padding: 10px;
 		color: black;
+		height: 180px;
 
 		&.orange {
 			border-color: $pathway-orange;
+
+			.apply-to-pathway {
+				background-image: url("{{site.baseurl}}img/join-pathway/JoinPathway_ApplyToPathway.png");
+				background-repeat: no-repeat;
+				height: 100%;
+			}
+
+			.link {
+				display: inline-block;
+				height: 30px;
+			}
+
+			h4 {
+				color: $pathway-orange;
+				text-transform: small-caps;
+			}
 		}
 		&.turquoise {
 			border-color: $turquoise;

@@ -7,24 +7,221 @@
 @import "sidebar";
 @import "BreadCrumb";
 
+.show-question {
+	opacity: 0;
+	z-index: 99999;
+	pointer-events: none;
+
+	div {
+		opacity: 0;
+		border-radius: 20px;
+		float: left;
+		top: 35%;
+		left: 25%;
+		background-color: white;
+
+		.green {
+			color: green;
+			font-weight: bold;
+		}
+
+		.bold {
+			font-weight: bold;
+		}
+	}
+}
+
+.show-question.on {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.show-question:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.question-close {
+	background: green;
+	color: white;
+	line-height: 24px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 26px;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid #666;
+	border-radius: 12px;
+}
+
+#info-email {
+	opacity: 0;
+	z-index: 99999;
+	pointer-events: none;
+	float: left;
+}
+
+#info-email.on {
+    opacity: 1;
+	pointer-events: auto;
+
+	div {
+		opacity: 1;
+	}
+}
+
+#info-email:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.phone-close {
+	background: red;
+	color: white;
+	line-height: 24px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 26px;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid #666;
+	border-radius: 12px;
+}
+
+#info-phone.on {
+	opacity:1;
+	pointer-events: auto;
+
+	div {
+		opacity:1;
+	}
+}
+
+#info-phone:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+#info-phone {
+	opacity: 00;
+	z-index: 99999;
+	pointer-events: none;
+
+    div {
+		opacity: 00;
+		padding: 20px;
+		border: solid 3px red;
+		border-radius: 20px;
+		float: left;
+		text-align: center;
+		position: absolute;
+		top: 35%;
+		left: 25%;
+		background-color: white;        
+		box-shadow: 5px 5px 10px #222;
+	}
+	
+	.numbers-box {
+		background-color: red;
+		color: white;
+		display: block;
+		font-variant: small-caps;
+	}
+
+	.bold {
+		font-weight: bold;
+	}
+
+	.italic {
+		font-style: italic;
+	}
+
+	.small {
+		font-size: 10px;
+	}
+}
+
+.icons {
+	height: 160px;
+}
+
+.icon-btn {
+    margin: 10px;
+}
+
 .iconic {
-	display: inline-block;
+	display: block;
 	height: 150px;
 
 	.recommended {
-		border-top: solid 1px red;
-		border-left: solid 1px red;
-		border-right: solid 1px red;
-		height: 90px;
+		display: block;
+		border: solid 1px red;
+		height: 120px;
+		width: 120px;
+		margin: 0;
+		padding: 0;
 	}
 
 	.recommended::after {
-		display: block;
 		content: "recommended";
+        font-variant: small-caps;
 		background-color: red;
 		color: white;
+		display: block;
 		text-align: center;
+		border: solid 1px red;
+		margin: 0;
+		padding: 0;
 	}
+
+	div:not(.recommended) {
+		display: block;
+		height: 120px;
+		width: 120px;
+	}
+
+	#Phone {
+		background-image: url("{{site.baseurl}}img/contact-us/Phone.png");
+		display: block;		
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100px;
+		width: 100px;
+	}
+
+	#Phone:hover {
+		background-image: url("{{site.baseurl}}img/contact-us/Phone_hover.png");
+	}
+
+	#Email {
+		background-image: url("{{site.baseurl}}img/contact-us/Email.png");
+		display: block;		
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100px;
+		width: 100px;
+	}
+
+	#Email:hover {
+		background-image: url("{{site.baseurl}}img/contact-us/Email_hover.png");
+	}
+
+	#Chat {
+		background-image: url("{{site.baseurl}}img/contact-us/Chat.png" );
+		display: block;		
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100px;
+		width: 100px;
+	}
+
+	#Chat:hover {
+		background-image: url("{{site.baseurl}}img/contact-us/Chat_hover.png" );
+	}	
 }
 
 .more-help {
