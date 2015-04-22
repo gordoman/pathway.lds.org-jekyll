@@ -1,6 +1,8 @@
 ---
 layout: base
 section: Contact Us
+add-scripts:
+- script: "js/contact_us.js"
 ---
 <!-- Start to the content area -->
 <div id="main-container" class="container">
@@ -466,12 +468,3 @@ section: Contact Us
 		</div>
 	</div>
 </div>
-<script type="text/jquery">
-	$("#Phone").click(function(){
-		var d = document.getElementById("info-phone");
-		d.className = d.className + " on";
-	});
-	$("#info-phone .phone-close").click(function(){
-	    $("#info-phone").removeClass(" on");
-	});
-</script>
