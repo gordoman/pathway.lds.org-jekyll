@@ -154,13 +154,13 @@
 	height: 160px;
 }
 
-.icon-btn {
-    //margin: 10px;
-}
-
 .iconic {
 	display: block;
 	height: 150px;
+
+	.icon-btn {
+   		cursor: pointer;
+	}
 
 	.recommended {
 		display: block;
@@ -199,10 +199,10 @@
 		background-position: 50% 45%;
 		height: 110px;
 		width: 120px;
-	}
 
-	#Phone:hover {
-		background-image: url("{{site.baseurl}}img/contact-us/Phone_hover.png");
+		&:hover {
+			background-image: url("{{site.baseurl}}img/contact-us/Phone_hover.png");
+		}
 	}
 
 	#Email {
@@ -212,11 +212,13 @@
 		background-position: 65% 61%;
 		height: 110px;
 		width: 120px;
+
+		&:hover {
+			background-image: url("{{site.baseurl}}img/contact-us/Email_hover.png");
+		}
 	}
 
-	#Email:hover {
-		background-image: url("{{site.baseurl}}img/contact-us/Email_hover.png");
-	}
+	
 
 	#Chat {
 		background-image: url("{{site.baseurl}}img/contact-us/Chat.png" );
@@ -225,10 +227,10 @@
 		background-position: 50% 50%;
 		height: 110px;
 		width: 120px;
-	}
 
-	#Chat:hover {
-		background-image: url("{{site.baseurl}}img/contact-us/Chat_hover.png" );
+		&:hover {
+			background-image: url("{{site.baseurl}}img/contact-us/Chat_hover.png" );
+		}
 	}	
 }
 
