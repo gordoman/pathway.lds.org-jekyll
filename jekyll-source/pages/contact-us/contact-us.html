@@ -12,9 +12,10 @@ add-scripts:
 				<h1 id="Standard">Contact Us</h1>
 			</div>
 			<div class="pf-section no-icon">
-				<form class="col-lg-12 col-md-12 col-sm-12 col-xs-12">	
+				<div class="select-section bottom-border">
 					<label>I am a </label>
-					<select name="user-type">
+					<select id="user-type">
+						<option selected="selected" disabled="disabled">Select option below...</option>
 						<option>Current Pathway Student</option>
 						<option>Prospective Pathway Student</option>
 						<option>Pathway Missionary</option>
@@ -23,9 +24,12 @@ add-scripts:
 						<option>PEF/Self-Reliance Manager</option>
 						<option>Other</option>
 					</select>
-					<hr/>
+				</div>
+
+				<div id="topic" class="select-section bottom-border">
 					<label>Please help me with </label>
-					<select name="help-type">
+					<select id="help-type">
+						<option selected="selected" disabled="disabled">Select option below...</option>
 						<option>Enrollment</option>
 						<option>Tuition</option>
 						<option>After Pathway</option>
@@ -33,25 +37,22 @@ add-scripts:
 						<option>Speaking Partners</option>
 						<option>Gatherings</option>
 					</select>
-					<div class="Hidden">
-						<h3>Could these help?</h3>
-						<div class="col-sm-6">
-							<p>
-								<a href="#apply">How do I apply for Pathway?</a> <br/><br/>
-								<a href="#admission">When will I know if I am admitted?</a>
-							</p>
-						</div>
-						<div class="col-sm-6">
-							<p>
-								<a href="#deadline">I missed the application deadline. Can I still be admitted?</a>
-							</p>
-						</div>
-						<div id="apply"></div>
-						<div id="admission"></div>
-						<div id="deadline"></div>
+				</div>
+				<div id="selfhelp" class="row hidden">
+					<h3 class="col-xs-12">Could these help?</h3>
+					<div class="col-sm-6">
+						<p>
+							<a href="#apply">How do I apply for Pathway?</a> <br/><br/>
+							<a href="#admission">When will I know if I am admitted?</a>
+						</p>
 					</div>
-					<hr/>
-				</form>
+					<div class="col-sm-6">
+						<p>
+							<a href="#deadline">I missed the application deadline. Can I still be admitted?</a>
+						</p>
+					</div>
+				</div>
+
 				<h2><span class="more-help"></span> How would you like to contact us?</h2>
 				<br/>
 				<div class="icons">

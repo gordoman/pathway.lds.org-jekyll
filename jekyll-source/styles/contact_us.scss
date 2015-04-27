@@ -31,6 +31,14 @@
 	}
 }
 
+.bottom-border {
+	border-bottom: 1px solid black;
+}
+
+.select-section {
+	padding: 20px 0;
+}
+
 .show-question.on {
 	opacity: 1;
 	pointer-events: auto;
