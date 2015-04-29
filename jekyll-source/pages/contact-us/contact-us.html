@@ -15,7 +15,9 @@ add-scripts:
 				<div class="select-section bottom-border">
 					<label>I am a </label>
 					<select id="user-type">
-						<option selected="selected" disabled="disabled">Select option below...</option>
+						<option selected="selected" disabled="disabled">--</option>
+						<option data-temp-id="loading" disabled="disabled">Loading...</option>
+						<!--
 						<option>Current Pathway Student</option>
 						<option>Prospective Pathway Student</option>
 						<option>Pathway Missionary</option>
@@ -23,34 +25,33 @@ add-scripts:
 						<option>Institute Director</option>
 						<option>PEF/Self-Reliance Manager</option>
 						<option>Other</option>
+						-->
 					</select>
 				</div>
 
 				<div id="topic" class="select-section bottom-border">
 					<label>Please help me with </label>
 					<select id="help-type">
-						<option selected="selected" disabled="disabled">Select option below...</option>
+						<option selected="selected" disabled="disabled">--</option>
+						<option data-temp-id="loading" disabled="disabled">Loading...</option>
+						<!--
 						<option>Enrollment</option>
 						<option>Tuition</option>
 						<option>After Pathway</option>
 						<option>Courses</option>
 						<option>Speaking Partners</option>
 						<option>Gatherings</option>
+						-->
 					</select>
-				</div>
-				<div id="selfhelp" class="row hidden">
-					<h3 class="col-xs-12">Could these help?</h3>
-					<div class="col-sm-6">
-						<p>
-							<a href="#apply">How do I apply for Pathway?</a> <br/><br/>
-							<a href="#admission">When will I know if I am admitted?</a>
-						</p>
+
+					<!-- Self Help Suggestions -->
+					<div id="selfhelp" class="row hidden">
+						<h3 class="col-sm-10 col-sm-offset-1">Could these help?</h3>
+						<div id="selfHelpList" class="col-sm-10 col-sm-offset-1 self-help-list">
+							<div data-temp-id="loading" class="item">Loading Suggestions...</div>
+						</div>
 					</div>
-					<div class="col-sm-6">
-						<p>
-							<a href="#deadline">I missed the application deadline. Can I still be admitted?</a>
-						</p>
-					</div>
+
 				</div>
 
 				<h2><span class="more-help"></span> How would you like to contact us?</h2>

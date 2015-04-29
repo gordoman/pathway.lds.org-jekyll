@@ -1,3 +1,25 @@
+---
+---
+var JSONdata = [];
+
+$('document').ready(function() {
+	// Populate Page with JSON Data
+	$.getJSON("{{site.baseurl}}js/json/contact_us.json", function(data) {
+		JSONdata = data;
+		$.each( JSONdata, function(key, val) {
+			console.log(val);
+			$("#user-type").append("<option>" + val.Audience + "</option>")
+		});
+
+	}).fail(function() {
+		console.log("Could not load JSON");
+		$("#user-type, #help-type").append("<option disabled='disabled'>ERROR: Could not load database</option>");
+	}).always(function(){
+		$("[data-temp-id='loading']").remove();
+	});
+});
+
+
 $("#Phone").click(function(){
 	$("#info-phone").toggleClass("on");
 });
@@ -5,61 +27,53 @@ $("#info-phone .phone-close").click(function(){
     $("#info-phone").removeClass("on");
 });
 
+
 // "I am a" dropdown case
 $("#user-type").change(function(){
 	var value = $(this).val();
 
-	console.log(value);
-
-	switch(value) {
-		case "Current Pathway Student":
-			$("#topic").removeClass("hidden");
-			break;
-		case "Prospective Pathway Student":
-			alert("Prospective Pathway Student!");
-			break;
-		case "Pathway Missionary":
-			alert("Pathway Missionary!");
-			break;
-		case "Priesthood/Ecclesiastical Leader":
-			alert("Priesthood/Ecclesiastical Leader!");
-			break;
-		case "Institute Director":
-			alert("Institute Director!");
-			break;
-		case "PEF/Self-Reliance Manager":
-			alert("PEF/Self-Reliance Manager!");
-			break;
-		case "Other":
-			alert("Other!");
-			break;
-	}
+	$.each(JSONdata, function(key, val) {
+		//find the audience selected
+		if (val.Audience == value) {
+			//remove any previous populated values
+			$("#help-type option[data-temp-id='database']").remove();
+			//populate the topics selection dropdown
+			$.each(val.Topics, function(k, v) {
+				$("#help-type").append("<option data-temp-id='database'>" + v.Topic + "</option>");
+			});
+			return false;
+		};
+	});
 });
 
 // "Please help me with" dropdown case
 $("#help-type").change(function(){
-	var value = $(this).val();
+	var topicValue = $(this).val();
+	var audienceValue = $("#user-type").val();
 
-	console.log(value);
+	//unhide self help suggestions
+	$("#selfhelp").removeClass("hidden");
 
-	switch(value) {
-		case "Enrollment":
-			$("#selfhelp").removeClass("hidden");
-			break;
-		case "Tuition":
-			alert("Tuition");
-			break;
-		case "After Pathway":
-			alert("After Pathway");
-			break;
-		case "Courses":
-			alert("Courses");
-			break;
-		case "Speaking Partners":
-			alert("Speaking Partners");
-			break;
-		case "Gatherings":
-			alert("Gatherings");
-			break;
-	}
+	//populate self help suggestions
+	$.each(JSONdata, function(key1, val1) {
+		//find the audience selected
+		if (val1.Audience == audienceValue) {
+			$.each(val1.Topics, function(key2, val2) {
+				if (val2.Topic == topicValue) {
+					//remove any previous populated values
+					$("#selfHelpList [data-temp-id='database']").remove();
+					$("#selfHelpList [data-temp-id='loading']").remove();
+					//populate the topics selection dropdown
+					$.each(val2.Links, function(k, v) {
+						$("#selfHelpList").append("<div data-temp-id='database' class='item'><a href='" + v.URL + "'>" + v.Title + "</a></div>")
+					});
+					return false;
+				}
+			});
+			return false;
+		};
+	});
 });
+
+
+
