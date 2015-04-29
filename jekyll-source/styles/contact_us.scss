@@ -15,80 +15,19 @@
 	padding: 20px 0;
 }
 
-form div{
-	width: 100%;
-}
+.info-email {
+	position: relative;
 
-.show-question {
-	opacity: 0;
-	z-index: 99999;
-	pointer-events: none;
-
-	div {
-		opacity: 0;
-		border-radius: 20px;
-		float: left;
-		top: 35%;
-		left: 25%;
-		background-color: white;
-
-		.green {
-			color: green;
-			font-weight: bold;
-		}
-
-		.bold {
-			font-weight: bold;
-		}
+	.icon {
+		display: block;
+		position: absolute;
+		left: 95px;
+		top: 0;
 	}
-
-	&.on {
-		opacity: 1;
-		pointer-events: auto;
+	form {
+		padding-left: 220px;
 	}
-	&:target {
-		opacity: 1;
-		pointer-events: auto;
-	}
-}
-
-.question-close {
-	background: green;
-	color: white;
-	line-height: 24px;
-	position: absolute;
-	right: -12px;
-	text-align: center;
-	top: -10px;
-	width: 26px;
-	text-decoration: none;
-	font-weight: bold;
-	border: 1px solid #666;
-	border-radius: 12px;
-}
-
-
-
-
-#info-email {
-	opacity: 0;
-	z-index: 99999;
-	pointer-events: none;
-	float: left;
-}
-
-#info-email.on {
-    opacity: 1;
-	pointer-events: auto;
-
-	div {
-		opacity: 1;
-	}
-}
-
-#info-email:target {
-	opacity:1;
-	pointer-events: auto;
+	
 }
 
 .phone-close {
@@ -104,26 +43,14 @@ form div{
 	font-weight: bold;
 	border: 1px solid #666;
 	border-radius: 12px;
-}
 
-#info-phone.on {
-	opacity:1;
-	pointer-events: auto;
-
-	div {
-		opacity:1;
+	&:hover {
+		text-decoration: none;
+		color: white;
 	}
 }
 
-#info-phone:target {
-	opacity:1;
-	pointer-events: auto;
-}
-
-#info-phone {
-	opacity: 00;
-	z-index: 99999;
-	pointer-events: none;
+.info-phone {
 
     div {
 		opacity: 00;
@@ -176,6 +103,10 @@ form div{
    		cursor: pointer;
 	}
 
+	&:hover {
+		text-decoration: none;
+	}
+
 	.recommended {
 		display: block;
 		height: 120px;
@@ -184,20 +115,22 @@ form div{
 		padding: 0;
 
 		.icon-btn {
-			border: solid 1px red;
+			border: solid 1px $red;
 		}
-	}
 
-	.recommended::after {
-		content: "recommended";
-        font-variant: small-caps;
-		background-color: red;
-		color: white;
-		display: block;
-		text-align: center;
-		border: solid 1px red;
-		margin: 0;
-		padding: 0;
+		&:after {
+			content: "recommended";
+	        text-transform: uppercase;
+	        font-size: 9px;
+	        letter-spacing: 0.09em;
+			background-color: $red;
+			color: white;
+			display: block;
+			text-align: center;
+			border: solid 1px $red;
+			margin: 0;
+			padding: 3px 0;
+		}
 	}
 
 	div:not(.recommended) {
@@ -248,21 +181,50 @@ form div{
 	}	
 }
 
-.more-help {
-	display: inline-block;
-	background-image: url("{{site.baseurl}}img/contact-us/Need-More-Help.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 50px;
-	width: 50px;
-	margin-top: 10px;
-}
+
 
 .self-help-list{
 	.item {
 		width: 49%;
   		padding: 5px 20px 5px 0;
   		display: inline-block;
+  		vertical-align: top;
 	}
 }
+
+.self-help-header{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: $red;
+	letter-spacing: 1px;
+	margin-top: 25px;
+	margin-bottom: 8px;
+}
+
+.more-help-header {
+	display: block;
+	position: relative;
+	overflow: hidden;
+
+	.more-help {
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		margin: 30px 0 30px 60px;
+	}
+
+	.more-help-icon {
+		display: block;
+		position: absolute;
+		background-image: url("{{site.baseurl}}img/contact-us/Need-More-Help.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 50px;
+		width: 50px;
+		top: 12px;
+	}
+
+
+}
+
 

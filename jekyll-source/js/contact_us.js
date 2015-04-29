@@ -2,24 +2,6 @@
 ---
 var JSONdata = [];
 
-$('document').ready(function() {
-	// Populate Page with JSON Data
-	$.getJSON("{{site.baseurl}}js/json/contact_us.json", function(data) {
-		JSONdata = data;
-		$.each( JSONdata, function(key, val) {
-			console.log(val);
-			$("#user-type").append("<option>" + val.Audience + "</option>")
-		});
-
-	}).fail(function() {
-		console.log("Could not load JSON");
-		$("#user-type, #help-type").append("<option disabled='disabled'>ERROR: Could not load database</option>");
-	}).always(function(){
-		$("[data-temp-id='loading']").remove();
-	});
-});
-
-
 $("#Phone").click(function(){
 	$("#info-phone").toggleClass("on");
 });
@@ -27,10 +9,17 @@ $("#info-phone .phone-close").click(function(){
     $("#info-phone").removeClass("on");
 });
 
-
 // "I am a" dropdown case
-$("#user-type").change(function(){
+$("#user-type").change(function() {
 	var value = $(this).val();
+
+	//After first change remove the help-type reminded to select audience
+	$("#help-type option[data-temp-id='chooseaud']").remove();
+	//hide self help suggestions when changing audience
+	$("#selfhelp").addClass("hidden");
+	//reset topic dropdown
+	$("#help-type option[data-temp-id='null']").attr("selected","selected");
+	
 
 	$.each(JSONdata, function(key, val) {
 		//find the audience selected
@@ -62,7 +51,6 @@ $("#help-type").change(function(){
 				if (val2.Topic == topicValue) {
 					//remove any previous populated values
 					$("#selfHelpList [data-temp-id='database']").remove();
-					$("#selfHelpList [data-temp-id='loading']").remove();
 					//populate the topics selection dropdown
 					$.each(val2.Links, function(k, v) {
 						$("#selfHelpList").append("<div data-temp-id='database' class='item'><a href='" + v.URL + "'>" + v.Title + "</a></div>")
@@ -76,4 +64,30 @@ $("#help-type").change(function(){
 });
 
 
+$('document').ready(function() {
+	// Populate Page with JSON Data
+	$.getJSON("{{site.baseurl}}js/json/contact_us.json", function(data) {
+
+		//set recommended contact option
+		$("#"+data.recommended).parent().addClass("recommended");
+
+		JSONdata = data.data;
+		$.each( JSONdata, function(key, val) {
+			$("#user-type").append("<option>" + val.Audience + "</option>")
+		});
+
+		//If a user presses the back button the browser may auto populate the
+		// audience dropdown but jQuery wont trigger the .change() event
+		if ($("#user-type").val() != null) {
+			//force change event
+			$("#user-type").change();
+		};
+
+	}).fail(function() {
+		console.log("Could not load JSON");
+		$("#user-type, #help-type").append("<option disabled='disabled'>ERROR: Could not load database</option>");
+	}).always(function(){
+		$("[data-temp-id='loading']").remove();
+	});
+});
 
