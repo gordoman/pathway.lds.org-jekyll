@@ -4,65 +4,144 @@ section: Have a Question
 ---
 <!-- Start to the content area -->
 <div id="main-container" class="container">
-  <div class="row row-offcanvas row-offcanvas-right">
-    <div class="col-xs-12">
-      <div class="hero pf-page-header no-icon">
-        <h1 id="Standard">Have a Question? Let us Help.</h1>
-      </div>
-      <div class="pf-section no-icon">
-        <div role="tabpanel">
-          <ul class="contact-navigator nav" role="tablist">
-            <li role="presentation" class="contact-tab active"><a href="#Enrollment" role="tab" data-toggle="tab" class="tab-inner orange">Enrollment</a></li>
-            <li role="presentation" class="contact-tab"><a href="#Tuition" role="tab" data-toggle="tab" class="tab-inner turquoise">Tuition</a></li>
-            <li role="presentation" class="contact-tab"><a href="#AfterPathway" role="tab" data-toggle="tab" class="tab-inner red">After Pathway</a></li>
-            <li role="presentation" class="contact-tab"><a href="#CoursesGatherings" role="tab" data-toggle="tab" class="tab-inner teal">Courses &amp; Gatherings</a></li>
-            <li role="presentation" class="contact-tab"><a href="#SpeakingPartners" role="tab" data-toggle="tab" class="tab-inner green">Speaking Partners</a></li>
-          </ul>
-          <!-- Tab panes -->
-          <div class="tab-content">
-            <div role="tabpanel" class="orange tab-pane active" id="Enrollment">
-              <div class="apply-to-pathway col-lg-2 col-2 md-2 col-sm-2 col-xs-2"></div>
-              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                <a href="#" class="link" id="applying">Applying to Pathway</a><br/>
-                <a href="#" class="link" id="course-registration">Course Registration</a><br/>
-                <a href="#" class="link" id="pelp">PELP</a><br/>
-                <a href="#" class="link" id="returning-students">Returning Student</a><br/>
-                <a href="#" class="link" id="other">Other</a><br/>
-              </div>
-              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-                <h4>applying to pathway</h4>
-                <a href="#">How do I apply for Pathway?</a><br/>
-                <a href="#">When will I know if I'm admitted?</a><br/>
-                <a href="#">I missed the application deadline. Can I still be admitted?</a><br/>
-                <a href="#">more...</a><br/>
-              </div>
-              <!-- Enrollment <a href="{{site.baseurl}}pages/contact-us/self-help-page.html">Test Link to Self Help Page</a> -->
-            </div>
-            <div role="tabpanel" class="turquoise tab-pane" id="Tuition">Tuition</div>
-            <div role="tabpanel" class="red tab-pane" id="AfterPathway">AfterPathway</div>
-            <div role="tabpanel" class="teal tab-pane" id="CoursesGatherings">CoursesGatherings</div>
-            <div role="tabpanel" class="green tab-pane" id="SpeakingPartners">SpeakingPartners</div>
-          </div>
-        </div>
-        <div>
-          <h3>Other Topics</h3>
-          <ul>
-            <li>Disabilities</li>
-            <li>Implementing a New Pathway Site</li>
-            <li>Marketing</li>
-            <li>Mission Control</li>
-            <li>PATH</li>
-            <li>Request Pathway in My Area</li>
-            <li>Student Honor</li>
-            <li>Tutoring</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Need More Help</h3>
-          <div>Didn’t find what you’re looking for? <a class="red" href="{{site.baseurl}}pages/contact-us/contact-us.html">Contact us</a> for support.</div>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="row row-offcanvas row-offcanvas-right">
+		<div class="col-xs-12">
+			<div class="hero pf-page-header no-icon">
+				<h1 id="Standard">Have a Question? Let us Help.</h1>
+			</div>
+			<div class="pf-section no-icon">
+				<div role="tabpanel">
+					<ul class="contact-navigator nav" role="tablist">
+						<li role="presentation" class="contact-tab active"><a href="#Enrollment" role="tab" data-toggle="tab" class="tab-inner orange">Enrollment</a></li>
+						<li role="presentation" class="contact-tab"><a href="#Tuition" role="tab" data-toggle="tab" class="tab-inner turquoise">Tuition</a></li>
+						<li role="presentation" class="contact-tab"><a href="#AfterPathway" role="tab" data-toggle="tab" class="tab-inner red">After Pathway</a></li>
+						<li role="presentation" class="contact-tab"><a href="#Courses" role="tab" data-toggle="tab" class="tab-inner teal">Courses</a></li>
+						<li role="presentation" class="contact-tab"><a href="#SpeakingPartners" role="tab" data-toggle="tab" class="tab-inner green">Speaking Partners</a></li>
+						<li role="presentation" class="contact-tab"><a href="#Gatherings" role="tab" data-toggle="tab" class="tab-inner navy_blue">Gatherings</a></li>
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="orange tab-pane active" id="Enrollment">
+							<div id="apply-to-pathway" class="img-tab col-lg-1 col-1 md-1 col-sm-1 col-xs-2"></div>
+							<div class="sub-tab col-lg-7 col-md-7 col-sm-7 col-xs-7">
+								<a href="#" class="link active" id="applying"><span class="arrow"></span> Applying to Pathway</a><br/>
+								<a href="#" class="link" id="course-registration"><span class="arrow"></span> Course Registration</a><br/>
+								<a href="#" class="link" id="pelp"><span class="arrow"></span> PELP <span class="italic">(English Proficiency Assessment)</span></a><br/>
+								<a href="#" class="link" id="returning-students"><span class="arrow"></span> Returning Student</a><br/>
+								<a href="#" class="link" id="other"><span class="arrow"></span> Other <span class="italic">(go to "Need More Help")</span></a><br/>
+							</div>
+							<div id="lessapply" class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<h4 class="bold">applying to pathway</h4>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/howtoapply">How and when can I apply for Pathway?</a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/whenwilliknow">When will I know if I'm admitted?</a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/misseddeadline">I missed the application deadline. Can I still be admitted?</a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/moreapply" class="bold">more...</a>
+							</div>
+							<!-- Enrollment <a href="{{site.baseurl}}pages/contact-us/self-help-page.html">Test Link to Self Help Page</a> -->
+						</div>
+						<div role="tabpanel" class="turquoise tab-pane" id="Tuition">
+							<div id="pay-your-tuition" class="img-tab col-lg-1 col-1 md-1 col-sm-1 col-xs-2"></div>
+							<div class="sub-tab col-lg-7 col-md-7 col-sm-7 col-xs-7">
+								<a href="#" class="link active" id="payments"><span class="arrow"></span> Payments</a><br/>
+								<a href="#" class="link" id="financial-aid"><span class="arrow"></span> Financial Aid</a><br/>
+								<a href="#" class="link" id="refunds"><span class="arrow"></span> Refunds</a><br/>
+								<a href="#" class="link" id="taxes"><span class="arrow"></span> Taxes</a><br/>
+							</div>
+							<div id="" class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<h4 class="bold"></h4>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/morepayments" class="bold">more...</a>
+							</div>
+						</div>
+						<div role="tabpanel" class="red tab-pane" id="AfterPathway">
+							<div id="after-pathway" class="img-tab col-lg-1 col-1 md-1 col-sm-1 col-xs-2"></div>
+							<div class="sub-tab col-lg-7 col-md-7 col-sm-7 col-xs-7">
+								<a href="#" class="link active" id="byui-degree-options"><span class="arrow"></span> BYU-Idaho Degree Options</a><br/>
+								<a href="#" class="link" id="applying-to-byui"><span class="arrow"></span> Applying to BYU-Idaho</a><br/>
+								<a href="#" class="link" id="byui-tuition"><span class="arrow"></span> BYU-Idaho Tuition</a><br/>
+								<a href="#" class="link" id="transcripts-and-certificates"><span class="arrow"></span> Transcripts & Pathway Certificates</a><br/>
+								<a href="#" class="link" id="other-options"><span class="arrow"></span> Other Options<span class="italic">(go to "Need More Help")</span></a><br/>
+							</div>
+							<div id="" class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<h4 class="bold"></h4>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/morebyuidegree" class="bold">more...</a>
+							</div>
+						</div>
+						<div role="tabpanel" class="teal tab-pane" id="Courses">
+							<div id="courses" class="img-tab col-lg-1 col-1 md-1 col-sm-1 col-xs-2"></div>
+							<div class="sub-tab col-lg-7 col-md-7 col-sm-7 col-xs-7">
+								<a href="#" class="link active" id="pathway-courses"><span class="arrow"></span> Pathway Courses</a><br/>
+								<a href="#" class="link" id="assignments-grades"><span class="arrow"></span> Assignment and grades</a><br/>
+								<a href="#" class="link" id="drop-withdraw"><span class="arrow"></span> Drop / Withdraw</a><br/>
+								<a href="#" class="link" id="instructors"><span class="arrow"></span> Instructors</a><br/>
+							</div>
+							<div id="" class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<h4 class="bold"></h4>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/morepathwaycourses" class="bold">more...</a>
+							</div>
+						</div>
+						<div role="tabpanel" class="green tab-pane" id="SpeakingPartners">
+							<div id="speaking-partners" class="img-tab col-lg-1 col-1 md-1 col-sm-1 col-xs-2"></div>
+							<div class="sub-tab col-lg-7 col-md-7 col-sm-7 col-xs-7">
+								<a href="#" class="link active" id="finding-partner"><span class="arrow"></span> Finding a Partner</a><br/>
+								<a href="#" class="link" id="alternate-assignments"><span class="arrow"></span> Alternate Assignments</a><br/>
+								<a href="#" class="link" id="registration"><span class="arrow"></span> Registration</a><br/>
+								<a href="#" class="link" id="volunteer"><span class="arrow"></span> Volunteer Questions</a><br/>
+							</div>
+							<div id="" class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<h4 class="bold"></h4>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/morefindingpartner" class="bold">more...</a>
+							</div>
+						</div>
+						<div role="tabpanel" class="navy_blue tab-pane" id="Gatherings">Gatherings
+							<div id="gatherings" class="img-tab col-lg-1 col-1 md-1 col-sm-1 col-xs-2"></div>
+							<div class="sub-tab col-lg-7 col-md-7 col-sm-7 col-xs-7">
+								<a href="#" class="link active" id="gatherings-questions"><span class="arrow"></span> Gatherings</a><br/>
+							</div>
+							<div id="" class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<h4 class="bold"></h4>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/"></a><br/>
+								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#/moregatherings" class="bold">more...</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h3>Other Topics</h3>
+					<div class="row">
+						<ul class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<li><a href="#"> Disabilities </a></li>
+							<li><a href="#"> Implementing a New Pathway Site </a></li>
+							<li><a href="#"> Marketing </a></li>
+							<li><a href="#"> Mission Control </a></li>
+						</ul>
+						<ul class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<li><a href="#"> PATH </a></li>
+							<li><a href="#"> Request Pathway in My Area </a></li>
+							<li><a href="#"> Student Honor </a></li>
+							<li><a href="#"> Tutoring </a></li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<h3>Need More Help</h3>
+					<div>Didn’t find what you’re looking for? <a class="red" href="{{site.baseurl}}pages/contact-us/contact-us.html">Contact us</a> for support.</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 </div>

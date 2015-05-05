@@ -18,3 +18,19 @@ h5 {
 	letter-spacing: 0.09em;
 	text-transform: uppercase;
 }
+
+.pf-page-header {
+	display: none;
+
+	&.show {
+		display: block;
+	}
+}
+
+.pf-section {
+	display: none;
+
+	&.show {
+		display: block;
+	}
+}
