@@ -3,10 +3,30 @@
 var JSONdata = [];
 
 $("#Phone").click(function(){
-	$("#info-phone").toggleClass("on");
+	$("#info-phone").toggleClass("hidden");
 });
 $("#info-phone .phone-close").click(function(){
-    $("#info-phone").removeClass("on");
+    $("#info-phone").removeClass("hidden");
+});
+
+$("#Email").click(function(){
+	$("#info-email").toggleClass("hidden");
+	$("#contactmethodicons").toggleClass("hidden");
+})
+
+$(".back-btn").click(function(){
+	$("#info-email").addClass("hidden");
+	$("#contactmethodicons").removeClass("hidden");
+});
+
+$("#countryselect").change(function(){
+	console.log($(this).val());
+
+    if ($(this).val() == "US") {
+    	$("#stateselect").removeClass("hidden");
+    } else {
+    	$("#stateselect").addClass("hidden");
+    };
 });
 
 // "I am a" dropdown case
