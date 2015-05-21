@@ -56,7 +56,7 @@
 					]
 				},
 				{
-					"Topic" : "Courses",
+					"Topic" : "Courses & Gatherings",
 					"Links" : [
 						{
 							"Title" : "Sample Courses Question?",
@@ -89,23 +89,6 @@
 						}
 					]
 				},
-				{
-					"Topic" : "Gatherings",
-					"Links" : [
-						{
-							"Title" : "Sample Gatherings Question?",
-							"URL" : "http://example.com"
-						},
-						{
-							"Title" : "Sample Gatherings Question?",
-							"URL" : "http://example.com"
-						},
-						{
-							"Title" : "Sample Gatherings Question?",
-							"URL" : "http://example.com"
-						}
-					]
-				}
 			]
 		},
 
@@ -164,7 +147,7 @@
 					]
 				},
 				{
-					"Topic" : "Courses",
+					"Topic" : "Courses & Gatherings",
 					"Links" : [
 						{
 							"Title" : "Sample Courses Question?",
@@ -197,23 +180,6 @@
 						}
 					]
 				},
-				{
-					"Topic" : "Gatherings",
-					"Links" : [
-						{
-							"Title" : "Sample Gatherings Question?",
-							"URL" : "http://example.com"
-						},
-						{
-							"Title" : "Sample Gatherings Question?",
-							"URL" : "http://example.com"
-						},
-						{
-							"Title" : "Sample Gatherings Question?",
-							"URL" : "http://example.com"
-						}
-					]
-				}
 			]
 		}
 	]
