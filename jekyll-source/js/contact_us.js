@@ -1,12 +1,13 @@
 ---
 ---
+
 var JSONdata = [];
 
 $("#Phone").click(function(){
 	$("#info-phone").toggleClass("hidden");
 });
 $("#info-phone .phone-close").click(function(){
-    $("#info-phone").removeClass("hidden");
+    $("#info-phone").addClass("hidden");
 });
 
 $("#Email").click(function(){
@@ -73,7 +74,7 @@ $("#help-type").change(function(){
 					$("#selfHelpList [data-temp-id='database']").remove();
 					//populate the topics selection dropdown
 					$.each(val2.Links, function(k, v) {
-						$("#selfHelpList").append("<div data-temp-id='database' class='item'><a href='" + v.URL + "'>" + v.Title + "</a></div>")
+						$("#selfHelpList").append("<div data-temp-id='database' class='item'><a id='" + v.ID + "'>" + v.Title + "</a></div>")
 					});
 					return false;
 				}
@@ -111,3 +112,14 @@ $('document').ready(function() {
 	});
 });
 
+$("#apply-sh").click(function(){
+	$("#q-apply").toggleClass("hidden");
+});
+
+$("#missed-deadline-sh").click(function(){
+	$("#q-missed-deadline").toggleClass("hidden");
+});
+
+$("#admitted-sh").click(function(){
+	$("#q-admitted").toggleClass("hidden");
+});
