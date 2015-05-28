@@ -80,6 +80,7 @@
 
 	.icon-btn {
    		cursor: pointer;
+   		margin: auto;
 	}
 
 	&:hover {
@@ -89,7 +90,6 @@
 	.recommended {
 		display: block;
 		height: 120px;
-		width: 120px;
 		margin: 0;
 		padding: 0;
 
@@ -100,6 +100,7 @@
 		&:after {
 			content: "recommended";
 	        text-transform: uppercase;
+	        width:120px;
 	        font-size: 9px;
 	        letter-spacing: 0.09em;
 			background-color: $red;
@@ -107,7 +108,7 @@
 			display: block;
 			text-align: center;
 			border: solid 1px $red;
-			margin: 0;
+			margin: 0 auto;
 			padding: 3px 0;
 		}
 	}
@@ -115,7 +116,6 @@
 	div:not(.recommended) {
 		display: block;
 		height: 120px;
-		width: 120px;
 	}
 
 	#Phone {

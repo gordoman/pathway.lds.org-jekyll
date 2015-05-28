@@ -128,7 +128,7 @@
 			.arrow {
 				display: inline-block;
 				border-style: solid;
-				border-width: 7px 7px;
+				border-width: 6px 7px;
 				height: 0;
 				width: 0;
 				opacity: 0;
@@ -179,7 +179,7 @@
 			.sub-tab {
 
 				a.active {
-					background-color: #fbebd0;
+					background-color: lighten($pathway-orange, 32%);
 				}
 
 				.arrow {
@@ -188,7 +188,7 @@
 			}
 
 			.last-tab {
-				background-color: #fbebd0;
+				background-color: lighten($pathway-orange, 32%);
 			}
 		}
 
@@ -206,7 +206,7 @@
 			.sub-tab {
 
 				a.active {
-					background-color: #a9e5ed;
+					background-color: lighten($turquoise, 32%);
 				}
 
 				.arrow {
@@ -215,7 +215,7 @@
 			}
 
 			.last-tab {
-				background-color: #a9e5ed;
+				background-color: lighten($turquoise, 32%);
 			}
 		}
 
@@ -233,7 +233,7 @@
 			.sub-tab {
 
 				a.active {
-					background-color: #fbb1a5;
+					background-color: lighten($red, 32%);
 				}
 
 				.arrow {
@@ -242,7 +242,7 @@
 			}
 
 			.last-tab {
-				background-color: #fbb1a5;
+				background-color: lighten($red, 32%);
 			}
 		}
 
@@ -250,7 +250,7 @@
 			border-color: $teal;
 
 			.bold {
-				color: $teal;
+				color: darken($teal, 25%);
 			}
 
 			#courses-and-gatherings-icon {
@@ -260,16 +260,16 @@
 			.sub-tab {
 
 				a.active {
-					background-color: #cbe5df;
+					background-color: lighten($teal, 25%);
 				}
 
 				.arrow {
-					border-color: transparent transparent transparent $teal;
+					border-color: transparent transparent transparent darken($teal, 25%);
 				}
 			}
 
 			.last-tab {
-				background-color: #cbe5df;
+				background-color: lighten($teal, 25%);
 			}
 		}
 
@@ -287,7 +287,7 @@
 			.sub-tab {
 
 				a.active {
-					background-color: #e0ee96;
+					background-color: lighten($green, 35%);
 				}
 
 				.arrow {
@@ -296,7 +296,7 @@
 			}
 
 			.last-tab {
-				background-color: #e0ee96;
+				background-color: lighten($green, 35%);
 			}
 		}
 	}
