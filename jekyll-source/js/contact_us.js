@@ -5,6 +5,7 @@ var JSONdata = [];
 
 $("#Phone").click(function(){
 	$("#info-phone").toggleClass("hidden");
+	$("#contactmethodicons").toggleClass("hidden");
 });
 $("#info-phone .phone-close").click(function(){
     $("#info-phone").addClass("hidden");
@@ -18,6 +19,7 @@ $("#Email").click(function(){
 $(".back-btn").click(function(){
 	$("#info-email").addClass("hidden");
 	$("#contactmethodicons").removeClass("hidden");
+	$("#info-phone").addClass("hidden");
 });
 
 $("#countryselect").change(function(){
