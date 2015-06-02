@@ -39,6 +39,70 @@
 	margin-top: 25px;
 	margin-bottom: 8px;
 }
+
+.question-close {
+	background: green;
+	color: white;
+	line-height: 24px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 26px;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid #666;
+	border-radius: 12px;
+
+	&:hover {
+		text-decoration: none;
+		color: white;
+	}
+}
+
+.show-question {
+	div {
+		float: left;
+		text-align: left;
+		position: relative;
+		background-color: white;
+		display: block;
+
+		&:only-child {
+			position: fixed;
+			top: 40%;
+			left: 25%;
+			opacity: 100%;
+			background-color: white;
+			width: 60%;
+			padding: 20px;
+			border-radius: 20px;
+			z-index: 100;
+			outline: 9999px solid rgba(0,0,0,0.5);
+		}
+
+		&.hidden {
+			display: none;
+		}
+	}
+
+	.bold {
+		font-weight: bold;
+	}
+
+	.italic {
+		font-style: italic;
+	}
+
+	.small {
+		font-size: 10px;
+	}
+
+	.green {
+		color: green;
+	}
+}
+
 // ****************************************************************************
 
 // ****************************************************************************
@@ -144,8 +208,6 @@
 		}
 	}
 
-	
-
 	#Chat {
 		background-image: url("{{site.baseurl}}img/contact-us/Chat.png" );
 		display: block;		
@@ -169,6 +231,7 @@
 	.icon {
 		display: block;
 	}
+
 	.contact-email-form {
 		//form styles
 	}
@@ -202,7 +265,7 @@
 	padding: 0;
 	margin: 0;
 
-    div {
+	div {
 		padding: 20px;
 		border: solid 3px red;
 		border-radius: 20px;

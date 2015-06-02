@@ -123,3 +123,7 @@ $("#missed-deadline-sh").click(function(){
 $("#admitted-sh").click(function(){
 	$("#q-admitted").toggleClass("hidden");
 });
+
+$("#q_admitted .question-close").click(function(){
+    $("#q_admitted").addClass("hidden");
+});
