@@ -7,6 +7,7 @@
 @import "sidebar";
 @import "BreadCrumb";
 
+//	For the 5 tabs on top.
 .contact-navigator {
 	position: relative;
 	margin: -1px -5px;
@@ -94,12 +95,14 @@
 	}
 }
 
+//	For the content of the tabs on top.
 .tab-content {
 	.tab-pane {
 		border: 1px solid black;
 		overflow: hidden;
 		padding: 20px;
 
+//	For the image.
 		.img-tab {
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -112,6 +115,7 @@
 			color: #222;
 		}
 
+//	For the middle tabs
 		.sub-tab {
 			padding-right: 0;
 			margin-right: 0;
@@ -139,6 +143,7 @@
 			}
 		}
 
+	//	For the links tabs
 		.last-tab {
 			padding: 20px 30px;
 			min-height: 250px;
@@ -302,27 +307,7 @@
 	}
 }
 
-.more-help-header {
-	display: block;
-	position: relative;
-
-	.more-help {
-		font-weight: bold;
-		text-transform: uppercase;
-		letter-spacing: 0.12em;
-		margin: 30px 0 30px 60px;
-	}
-
-}
-
-.more-help-icon {
-	display: block;
-	background-image: url("{{site.baseurl}}img/contact-us/Need-More-Help.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 50px;
-	width: 50px;
-}
+//	For the other topics section.
 .other-topics-icon {
 	display: block;
 	background-image: url("{{site.baseurl}}img/contact-us/Other-Topics.png");
@@ -366,6 +351,29 @@
 		top: -25px;
 		left: -60px;
 	}
+}
+
+//	For the need more help section.
+.more-help-header {
+	display: block;
+	position: relative;
+
+	.more-help {
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		margin: 30px 0 30px 60px;
+	}
+
+}
+
+.more-help-icon {
+	display: block;
+	background-image: url("{{site.baseurl}}img/contact-us/Need-More-Help.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50px;
+	width: 50px;
 }
 
 
