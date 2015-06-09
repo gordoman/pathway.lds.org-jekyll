@@ -1,3 +1,5 @@
+---
+---
 {
     "recommended": "Chat",
     "data": [
@@ -9,15 +11,15 @@
                     "Links": [
                         {
                             "Title": "How do I apply to Pathway?",
-                            "ID": "apply-sh"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply"
                         },
                         {
                             "Title": "I missed the application deadline. Can I still be admitted?",
-                            "ID": "missed-deadline-sh"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply"
                         },
                         {
                             "Title": "When will I know if I am admitted?",
-                            "ID": "admitted-sh"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply"
                         }
                     ]
                 },
@@ -25,16 +27,16 @@
                     "Topic": "Tuition",
                     "Links": [
                         {
-                            "Title": "Sample Tuition Question?",
-                            "ID": "http://example.com"
+                            "Title": "How much is tuition for Pathway?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepayments"
                         },
                         {
-                            "Title": "Sample Tuition Question?",
-                            "ID": "http://example.com"
+                            "Title": "When is tuition due?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepayments"
                         },
                         {
-                            "Title": "Sample Tuition Question?",
-                            "ID": "http://example.com"
+                            "Title": "Is financial aid available to Pathway students?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morefinancialaid"
                         }
                     ]
                 },
@@ -42,16 +44,16 @@
                     "Topic": "After Pathway",
                     "Links": [
                         {
-                            "Title": "Sample After Pathway Question?",
-                            "ID": "http://example.com"
+                            "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuidegree"
                         },
                         {
-                            "Title": "Sample After Pathway Question?",
-                            "ID": "http://example.com"
+                            "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapplytobyui"
                         },
                         {
-                            "Title": "Sample After Pathway Question?",
-                            "ID": "http://example.com"
+                            "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuituition"
                         }
                     ]
                 },
@@ -59,16 +61,16 @@
                     "Topic": "Courses & Gatherings",
                     "Links": [
                         {
-                            "Title": "Sample Courses Question?",
-                            "ID": "http://example.com"
+                            "Title": "What courses do I take during Pathway?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepathwaycourses"
                         },
                         {
-                            "Title": "Sample Courses Question?",
-                            "ID": "http://example.com"
+                            "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepathwaycourses"
                         },
                         {
-                            "Title": "Sample Courses Question?",
-                            "ID": "http://example.com"
+                            "Title": "Am I required to go to the Pathway gatherings?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moregatherings"
                         }
                     ]
                 },
@@ -76,16 +78,16 @@
                     "Topic": "Speaking Partners",
                     "Links": [
                         {
-                            "Title": "Sample Speaking Partners Question?",
-                            "ID": "http://example.com"
+                            "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morefindingpartner"
                         },
                         {
-                            "Title": "Sample Speaking Partners Question?",
-                            "ID": "http://example.com"
+                            "Title": "I need an alternate assignment - how do I get one?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morealternateassignments"
                         },
                         {
-                            "Title": "Sample Speaking Partners Question?",
-                            "ID": "http://example.com"
+                            "Title": "How do I qualify for an alternate assignment?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morealternateassignments"
                         }
                     ]
                 }
@@ -99,15 +101,15 @@
                     "Links": [
                         {
                             "Title": "How do I apply to Pathway?",
-                            "ID": "http://example.com"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply"
                         },
                         {
                             "Title": "I missed the application deadline. Can I still be admitted?",
-                            "ID": "http://example.com"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply"
                         },
                         {
                             "Title": "When will I knoww if I am admitted?",
-                            "ID": "http://example.com"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply"
                         }
                     ]
                 },
@@ -115,16 +117,16 @@
                     "Topic": "Tuition",
                     "Links": [
                         {
-                            "Title": "Sample Tuition Question?",
-                            "ID": "http://example.com"
+                            "Title": "How much is tuition for Pathway?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepayments"
                         },
                         {
-                            "Title": "Sample Tuition Question?",
-                            "ID": "http://example.com"
+                            "Title": "When is tuition due?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepayments"
                         },
                         {
-                            "Title": "Sample Tuition Question?",
-                            "ID": "http://example.com"
+                            "Title": "Is financial aid available to Pathway students?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morefinancialaid"
                         }
                     ]
                 },
@@ -132,16 +134,16 @@
                     "Topic": "After Pathway",
                     "Links": [
                         {
-                            "Title": "Sample After Pathway Question?",
-                            "ID": "http://example.com"
+                            "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuidegree"
                         },
                         {
-                            "Title": "Sample After Pathway Question?",
-                            "ID": "http://example.com"
+                            "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapplytobyui"
                         },
                         {
-                            "Title": "Sample After Pathway Question?",
-                            "ID": "http://example.com"
+                            "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuituition"
                         }
                     ]
                 },
@@ -149,16 +151,16 @@
                     "Topic": "Courses & Gatherings",
                     "Links": [
                         {
-                            "Title": "Sample Courses Question?",
-                            "ID": "http://example.com"
+                            "Title": "What courses do I take during Pathway?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepathwaycourses"
                         },
                         {
-                            "Title": "Sample Courses Question?",
-                            "ID": "http://example.com"
+                            "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepathwaycourses"
                         },
                         {
-                            "Title": "Sample Courses Question?",
-                            "ID": "http://example.com"
+                            "Title": "Am I required to go to the Pathway gatherings?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moregatherings"
                         }
                     ]
                 },
@@ -166,16 +168,16 @@
                     "Topic": "Speaking Partners",
                     "Links": [
                         {
-                            "Title": "Sample Speaking Partners Question?",
-                            "ID": "http://example.com"
+                            "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morefindingpartner"
                         },
                         {
-                            "Title": "Sample Speaking Partners Question?",
-                            "ID": "http://example.com"
+                            "Title": "I need an alternate assignment - how do I get one?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morealternateassignments"
                         },
                         {
-                            "Title": "Sample Speaking Partners Question?",
-                            "ID": "http://example.com"
+                            "Title": "How do I qualify for an alternate assignment?",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morealternateassignments"
                         }
                     ]
                 }
