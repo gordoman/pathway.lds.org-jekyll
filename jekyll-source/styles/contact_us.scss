@@ -144,6 +144,7 @@
 
 	.icon-btn {
    		cursor: pointer;
+   		margin: auto;
 	}
 
 	&:hover {
@@ -153,7 +154,6 @@
 	.recommended {
 		display: block;
 		height: 120px;
-		width: 120px;
 		margin: 0;
 		padding: 0;
 
@@ -164,6 +164,7 @@
 		&:after {
 			content: "recommended";
 	        text-transform: uppercase;
+	        width:120px;
 	        font-size: 9px;
 	        letter-spacing: 0.09em;
 			background-color: $red;
@@ -171,7 +172,7 @@
 			display: block;
 			text-align: center;
 			border: solid 1px $red;
-			margin: 0;
+			margin: 0 auto;
 			padding: 3px 0;
 		}
 	}
@@ -179,7 +180,6 @@
 	div:not(.recommended) {
 		display: block;
 		height: 120px;
-		width: 120px;
 	}
 
 	#Phone {
@@ -217,7 +217,7 @@
 		width: 120px;
 
 		&:hover {
-			background-image: url("{{site.baseurl}}img/contact-us/Chat_hover.png" );
+			background-image: url("{{site.baseurl}}img/contact-us/Chat_hover.png");
 		}
 	}	
 }
@@ -240,54 +240,20 @@
 
 // ****************************************************************************
 // for the contact by phone box
-.phone-close {
-	background: red;
-	color: white;
-	line-height: 24px;
-	position: absolute;
-	right: -12px;
-	text-align: center;
-	top: -10px;
-	width: 26px;
-	text-decoration: none;
-	font-weight: bold;
-	border: 1px solid #666;
-	border-radius: 12px;
-
-	&:hover {
-		text-decoration: none;
-		color: white;
-	}
-}
-
 .info-phone {
-	max-height: 0;
-	padding: 0;
-	margin: 0;
 
-	div {
-		padding: 20px;
-		border: solid 3px red;
-		border-radius: 20px;
-		float: left;
-		text-align: center;
-  		position: relative;
-		top: -450px;
-		left: 29%;
-		background-color: white;        
-		box-shadow: 5px 5px 10px #222;
-		display: block;
-
-		&.hidden {
-			display: none;
-		}
+	.icon img {
+		display:block;
+		padding: 0 8px 7px 8px;
 	}
 	
 	.numbers-box {
+		display: block;
 		background-color: red;
 		color: white;
-		display: block;
-		font-variant: small-caps;
+		font-size: 80%;
+		padding: 3px 15px;
+		text-transform: uppercase;
 	}
 
 	.bold {
