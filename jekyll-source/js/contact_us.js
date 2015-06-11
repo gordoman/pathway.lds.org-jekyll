@@ -113,19 +113,3 @@ $('document').ready(function() {
 		$("[data-temp-id='loading']").remove();
 	});
 });
-
-$("#apply-sh").click(function(){
-	$("#q-apply").toggleClass("hidden");
-});
-
-$("#missed-deadline-sh").click(function(){
-	$("#q-missed-deadline").toggleClass("hidden");
-});
-
-$("#admitted-sh").click(function(){
-	$("#q-admitted").toggleClass("hidden");
-});
-
-$("#q_admitted .question-close").click(function(){
-    $("#q_admitted").addClass("hidden");
-});

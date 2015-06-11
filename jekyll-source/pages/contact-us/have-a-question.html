@@ -1,6 +1,8 @@
 ---
 layout: base
 section: Have a Question
+add-scripts:
+- script: "js/have-a-question.js"
 ---
 <!-- Start to the content area -->
 <div id="main-container" class="container">
@@ -29,7 +31,7 @@ section: Have a Question
 								<a href="#" class="link" id="returning-students"> <span class="arrow"></span>Returning Student</a><br/>
 								<a href="#needmorehelp" class="link" id="other"> <span class="arrow"></span>Other <span class="italic">(go to "Need More Help")</span></a><br/>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4" id="applyimg-last-tab">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4" id="applying-last-tab">
 								<h4 class="bold">Applying to Pathway</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply">How and when can I apply for Pathway?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply">When will I know if I'm admitted?</a>
@@ -66,24 +68,24 @@ section: Have a Question
 								<a href="#" class="link" id="taxes"> <span class="arrow"></span> Taxes</a><br/>
 								<a href="#needmorehelp" class="link" id="other"> <span class="arrow"></span>Other <span class="italic">(go to "Need More Help")</span></a><br/>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4" id="payments-last-tab">
 								<h4 class="bold">Payments</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morepayments">How much is tuition for Pathway?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morepayments">How do I pay my Pathway tuition?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morepayments">When is tuition due?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morepayments" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="financial-aid-last-tab">
 								<h4 class="bold">Financial Aid</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morefinancialaid">Is financial aid available to Pathway students?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morefinancialaid" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="refunds-last-tab">
 								<h4 class="bold">Refunds</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morerefunds">What is Pathway's tuition refund policy?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morerefunds" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="taxes-last-tab">
 								<h4 class="bold">Taxes</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moretaxes">Will my participation in Pathway affect the taxes I pay?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moretaxes" class="bold">more...</a>
@@ -98,28 +100,28 @@ section: Have a Question
 								<a href="#" class="link" id="transcripts-and-certificates"> <span class="arrow"></span>Transcripts &amp; Pathway Certificates</a><br/>
 								<a href="#needmorehelp" class="link" id="other"> <span class="arrow"></span>Other Options <span class="italic">(go to "Need More Help")</span></a><br/>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4" id="byui-degree-options-last-tab">
 								<h4 class="bold">BYU-Idaho Degree Options</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuidegree">What degrees are available through the BYU-Idaho Online Degree Program?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuidegree">What is the difference between a certificate, an associate, and a bachelor’s degree?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuidegree">What new degrees will be offered in the future?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuidegree" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="applying-to-byui-last-tab">
 								<h4 class="bold">Applying to BYU-Idaho</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapplytobyui">What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapplytobyui">How do I apply to the BYU-Idaho Online Degree Program?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapplytobyui">Where can I get help applying to the BYU-Idaho Online Degree Program?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapplytobyui" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="byui-tuition-last-tab">
 								<h4 class="bold">BYU-Idaho Tuition</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuituition">What is the tuition rate for the BYU-Idaho Online Degree Program?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuituition">Will I have to buy textbooks for courses in the BYU-Idaho Online Degree Program?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuituition">What is the tuition rate to attend BYU-Idaho on campus?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuituition" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="transcripts-and-certificates-last-tab">
 								<h4 class="bold">Transcripts & Pathway Certificates</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moretranscriptcertificates">How do I get a Pathway transcript to send to BYU-Idaho or other colleges?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moretranscriptcertificates">How do my institute credits transfer to BYU-Idaho?</a>
@@ -136,31 +138,31 @@ section: Have a Question
 								<a href="#" class="link" id="gatherings-questions"> <span class="arrow"></span>Gatherings</a><br/>
 								<a href="#" class="link" id="instructors"> <span class="arrow"></span>Instructors</a><br/>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4" id="pathway-courses-last-tab">
 								<h4 class="bold">Pathway Courses</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morepathwaycourses">What courses do I take during Pathway?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morepathwaycourses">Which institute courses do 18–30-year-old Pathway students take each semester during Pathway?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morepathwaycourses">What day do my Pathway courses begin?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morepathwaycourses" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="assignments-grades-last-tab">
 								<h4 class="bold">Assignments & Grades</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreassignmentsgrades">Whom do I contact for help or issues with my online courses?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreassignmentsgrades">What happens if I fail a class?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreassignmentsgrades" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="drop-withdraw-last-tab">
 								<h4 class="bold">Drop/Withdraw</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moredropwithdraw">How do I completely withdraw from Pathway?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moredropwithdraw">I want to drop one of my Pathway courses but keep the other one. Can I do that?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moredropwithdraw" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="instructors-last-tab">
 								<h4 class="bold">Instructors</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreinstructors">What can I do if I have a complaint about my instructor?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moreinstructors" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="gatherings-questions-last-tab">
 								<h4 class="bold">Gatherings</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moregatherings">Am I required to go to the Pathway gatherings?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#moregatherings">Can I miss a gathering?</a>
@@ -177,26 +179,24 @@ section: Have a Question
 								<a href="#" class="link" id="volunteer"> <span class="arrow"></span>Volunteer Questions</a><br/>
 								<a href="#needmorehelp" class="link" id="other"> <span class="arrow"></span>Other <span class="italic">(go to "Need More Help")</span></a><br/>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4" id="finding-partner-last-tab">
 								<h4 class="bold">Finding a Partner</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morefindingpartner">I am a student in Pathway’s L Version. How do I find a speaking partner?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morefindingpartner" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="alternate-assignments-last-tab">
 								<h4 class="bold">Alternate Assignments</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morealternateassignments">I need an alternate assignment — how do I get one?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morealternateassignments">How do I qualify for an alternate assignment?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morealternateassignments">I don’t want to be a speaking partner. Can I get an alternate?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morealternateassignments" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="registration-last-tab">
 								<h4 class="bold">Registration</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morespeakingpartnersregistration">How do I register to be a speaking partner volunteer or mentor?</a>
-								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morespeakingpartnersregistration">?</a>
-								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morespeakingpartnersregistration">?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morespeakingpartnersregistration" class="bold">more...</a>
 							</div>
-							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden">
+							<div class="show last-tab col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden" id="volunteer-last-tab">
 								<h4 class="bold">Volunteer Questions</h4>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morevolunteerquestions">What's the difference between Pathway and Speaking Partners?</a>
 								<a href="{{site.baseurl}}pages/contact-us/self-help-page.html/#morevolunteerquestions">Do I need to know a foreign language?</a>
