@@ -14,6 +14,8 @@ $("#applying").click(function(){
 	$("#course-registration").removeClass("active");
 	$("#pelp").removeClass("active");
 	$("#returning-students").removeClass("active");
+
+	return false;
 });
 
 $("#course-registration").click(function(){
@@ -27,6 +29,8 @@ $("#course-registration").click(function(){
 	$("#course-registration").addClass("active");
 	$("#pelp").removeClass("active");
 	$("#returning-students").removeClass("active");
+
+	return false;
 });
 
 $("#pelp").click(function(){
@@ -40,6 +44,8 @@ $("#pelp").click(function(){
 	$("#course-registration").removeClass("active");
 	$("#pelp").addClass("active");
 	$("#returning-students").removeClass("active");
+
+	return false;
 });
 
 $("#returning-students").click(function(){
@@ -53,6 +59,8 @@ $("#returning-students").click(function(){
 	$("#course-registration").removeClass("active");
 	$("#pelp").removeClass("active");
 	$("#returning-students").addClass("active");
+
+	return false;
 });
 
 /********************************
@@ -69,6 +77,8 @@ $("#payments").click(function(){
 	$("#financial-aid").removeClass("active");
 	$("#refunds").removeClass("active");
 	$("#taxes").removeClass("active");
+
+	return false;
 });
 
 $("#financial-aid").click(function(){
@@ -82,6 +92,8 @@ $("#financial-aid").click(function(){
 	$("#financial-aid").addClass("active");
 	$("#refunds").removeClass("active");
 	$("#taxes").removeClass("active");
+
+	return false;
 });
 
 $("#refunds").click(function(){
@@ -95,6 +107,8 @@ $("#refunds").click(function(){
 	$("#financial-aid").removeClass("active");
 	$("#refunds").addClass("active");
 	$("#taxes").removeClass("active");
+
+	return false;
 });
 
 $("#taxes").click(function(){
@@ -108,6 +122,8 @@ $("#taxes").click(function(){
 	$("#financial-aid").removeClass("active");
 	$("#refunds").removeClass("active");
 	$("#taxes").addClass("active");
+
+	return false;
 });
 
 /********************************
@@ -124,6 +140,8 @@ $("#byui-degree-options").click(function(){
 	$("#applying-to-byui").removeClass("active");
 	$("#byui-tuition").removeClass("active");
 	$("#transcripts-and-certificates").removeClass("active");
+
+	return false;
 });
 
 $("#applying-to-byui").click(function(){
@@ -137,6 +155,8 @@ $("#applying-to-byui").click(function(){
 	$("#applying-to-byui").addClass("active");
 	$("#byui-tuition").removeClass("active");
 	$("#transcripts-and-certificates").removeClass("active");
+
+	return false;
 });
 
 $("#byui-tuition").click(function(){
@@ -150,6 +170,8 @@ $("#byui-tuition").click(function(){
 	$("#applying-to-byui").removeClass("active");
 	$("#byui-tuition").addClass("active");
 	$("#transcripts-and-certificates").removeClass("active");
+
+	return false;
 });
 
 $("#transcripts-and-certificates").click(function(){
@@ -163,6 +185,8 @@ $("#transcripts-and-certificates").click(function(){
 	$("#applying-to-byui").removeClass("active");
 	$("#byui-tuition").removeClass("active");
 	$("#transcripts-and-certificates").addClass("active");
+
+	return false;
 });
 
 /********************************
@@ -181,6 +205,8 @@ $("#pathway-courses").click(function(){
 	$("#drop-withdraw").removeClass("active");
 	$("#gatherings-questions").removeClass("active");
 	$("#instructors").removeClass("active");
+
+	return false;
 });
 
 $("#assignments-grades").click(function(){
@@ -196,6 +222,8 @@ $("#assignments-grades").click(function(){
 	$("#drop-withdraw").removeClass("active");
 	$("#gatherings-questions").removeClass("active");
 	$("#instructors").removeClass("active");
+
+	return false;
 });
 
 $("#drop-withdraw").click(function(){
@@ -211,6 +239,8 @@ $("#drop-withdraw").click(function(){
 	$("#drop-withdraw").addClass("active");
 	$("#gatherings-questions").removeClass("active");
 	$("#instructors").removeClass("active");
+
+	return false;
 });
 
 $("#gatherings-questions").click(function(){
@@ -226,6 +256,8 @@ $("#gatherings-questions").click(function(){
 	$("#drop-withdraw").removeClass("active");
 	$("#gatherings-questions").addClass("active");
 	$("#instructors").removeClass("active");
+
+	return false;
 });
 
 $("#instructors").click(function(){
@@ -241,6 +273,8 @@ $("#instructors").click(function(){
 	$("#drop-withdraw").removeClass("active");
 	$("#gatherings-questions").removeClass("active");
 	$("#instructors").addClass("active");
+
+	return false;
 });
 
 /********************************
@@ -257,6 +291,8 @@ $("#finding-partner").click(function(){
 	$("#alternate-assignments").removeClass("active");
 	$("#registration").removeClass("active");
 	$("#volunteer").removeClass("active");
+
+	return false;
 });
 
 $("#alternate-assignments").click(function(){
@@ -270,6 +306,8 @@ $("#alternate-assignments").click(function(){
 	$("#alternate-assignments").addClass("active");
 	$("#registration").removeClass("active");
 	$("#volunteer").removeClass("active");
+
+	return false;
 });
 
 $("#registration").click(function(){
@@ -283,6 +321,8 @@ $("#registration").click(function(){
 	$("#alternate-assignments").removeClass("active");
 	$("#registration").addClass("active");
 	$("#volunteer").removeClass("active");
+
+	return false;
 });
 
 $("#volunteer").click(function(){
@@ -296,4 +336,6 @@ $("#volunteer").click(function(){
 	$("#alternate-assignments").removeClass("active");
 	$("#registration").removeClass("active");
 	$("#volunteer").addClass("active");
+
+	return false;
 });
