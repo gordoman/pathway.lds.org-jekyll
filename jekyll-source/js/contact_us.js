@@ -70,7 +70,10 @@ $("#help-type").change(function(){
 	var audienceValue = $("#user-type").val();
 
 	//unhide self help suggestions
-	$("#selfhelp").removeClass("hidden");
+	if (topicValue == "Other")
+		$("#selfhelp").addClass("hidden");
+	else
+		$("#selfhelp").removeClass("hidden");
 
 	//populate self help suggestions
 	$.each(JSONdata, function(key1, val1) {
