@@ -1,7 +1,7 @@
 ---
 ---
 {
-    "recommended": "Chat",
+    "recommended": "Email",
     "data": [
         {
             "Audience": "Current Pathway Student",
@@ -20,6 +20,10 @@
                         {
                             "Title": "When will I know if I am admitted?",
                             "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply"
+                        },
+                        {
+                            "Title": "More ...",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply"
                         }
                     ]
                 },
@@ -37,6 +41,10 @@
                         {
                             "Title": "Is financial aid available to Pathway students?",
                             "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morefinancialaid"
+                        },
+                        {
+                            "Title": "More ...",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepayments"
                         }
                     ]
                 },
@@ -54,6 +62,10 @@
                         {
                             "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
                             "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuituition"
+                        },
+                        {
+                            "Title": "More ...",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuidegree"
                         }
                     ]
                 },
@@ -71,6 +83,10 @@
                         {
                             "Title": "Am I required to go to the Pathway gatherings?",
                             "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moregatherings"
+                        },
+                        {
+                            "Title": "More ...",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepathwaycourses"
                         }
                     ]
                 },
@@ -88,6 +104,10 @@
                         {
                             "Title": "How do I qualify for an alternate assignment?",
                             "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morealternateassignments"
+                        },
+                        {
+                            "Title": "More ...",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morefindingpartner"
                         }
                     ]
                 }
@@ -110,6 +130,10 @@
                         {
                             "Title": "When will I knoww if I am admitted?",
                             "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply"
+                        },
+                        {
+                            "Title": "More ...",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moreapply"
                         }
                     ]
                 },
@@ -127,6 +151,10 @@
                         {
                             "Title": "Is financial aid available to Pathway students?",
                             "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morefinancialaid"
+                        },
+                        {
+                            "Title": "More ...",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepayments"
                         }
                     ]
                 },
@@ -144,6 +172,10 @@
                         {
                             "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
                             "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuituition"
+                        },
+                        {
+                            "Title": "More ...",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morebyuidegree"
                         }
                     ]
                 },
@@ -161,6 +193,10 @@
                         {
                             "Title": "Am I required to go to the Pathway gatherings?",
                             "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#moregatherings"
+                        },
+                        {
+                            "Title": "More ...",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morepathwaycourses"
                         }
                     ]
                 },
@@ -178,6 +214,10 @@
                         {
                             "Title": "How do I qualify for an alternate assignment?",
                             "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morealternateassignments"
+                        },
+                                                {
+                            "Title": "More ...",
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-page.html/#morefindingpartner"
                         }
                     ]
                 }
