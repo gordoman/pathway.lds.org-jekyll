@@ -11,19 +11,19 @@
                     "Links": [
                         {
                             "Title": "How do I apply to Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "I missed the application deadline. Can I still be admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "When will I know if I am admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         }
                     ]
                 },
@@ -32,19 +32,19 @@
                     "Links": [
                         {
                             "Title": "How much is tuition for Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "When is tuition due?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "Is financial aid available to Pathway students?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morefinancialaid"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morefinancialaid"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         }
                     ]
                 },
@@ -53,19 +53,19 @@
                     "Links": [
                         {
                             "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         },
                         {
                             "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#moreapplytobyui"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#moreapplytobyui"
                         },
                         {
                             "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuituition"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuituition"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         }
                     ]
                 },
@@ -74,19 +74,19 @@
                     "Links": [
                         {
                             "Title": "What courses do I take during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Am I required to go to the Pathway gatherings?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#moregatherings"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#moregatherings"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         }
                     ]
                 },
@@ -95,19 +95,19 @@
                     "Links": [
                         {
                             "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         },
                         {
                             "Title": "I need an alternate assignment - how do I get one?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "How do I qualify for an alternate assignment?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         }
                     ]
                 },
@@ -124,19 +124,19 @@
                     "Links": [
                         {
                             "Title": "How do I apply to Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "I missed the application deadline. Can I still be admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "When will I know if I am admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         }
                     ]
                 },
@@ -145,19 +145,19 @@
                     "Links": [
                         {
                             "Title": "How much is tuition for Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "When is tuition due?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "Is financial aid available to Pathway students?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morefinancialaid"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morefinancialaid"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         }
                     ]
                 },
@@ -166,19 +166,19 @@
                     "Links": [
                         {
                             "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         },
                         {
                             "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#moreapplytobyui"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#moreapplytobyui"
                         },
                         {
                             "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuituition"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuituition"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         }
                     ]
                 },
@@ -187,19 +187,19 @@
                     "Links": [
                         {
                             "Title": "What courses do I take during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Am I required to go to the Pathway gatherings?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#moregatherings"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#moregatherings"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         }
                     ]
                 },
@@ -208,19 +208,19 @@
                     "Links": [
                         {
                             "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         },
                         {
                             "Title": "I need an alternate assignment - how do I get one?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "How do I qualify for an alternate assignment?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         }
                     ]
                 },
@@ -237,19 +237,19 @@
                     "Links": [
                         {
                             "Title": "How do I apply to Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "I missed the application deadline. Can I still be admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "When will I know if I am admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         }
                     ]
                 },
@@ -258,19 +258,19 @@
                     "Links": [
                         {
                             "Title": "How much is tuition for Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "When is tuition due?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "Is financial aid available to Pathway students?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morefinancialaid"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morefinancialaid"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         }
                     ]
                 },
@@ -279,19 +279,19 @@
                     "Links": [
                         {
                             "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         },
                         {
                             "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#moreapplytobyui"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#moreapplytobyui"
                         },
                         {
                             "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuituition"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuituition"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         }
                     ]
                 },
@@ -300,19 +300,19 @@
                     "Links": [
                         {
                             "Title": "What courses do I take during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Am I required to go to the Pathway gatherings?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#moregatherings"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#moregatherings"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         }
                     ]
                 },
@@ -321,19 +321,19 @@
                     "Links": [
                         {
                             "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         },
                         {
                             "Title": "I need an alternate assignment - how do I get one?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "How do I qualify for an alternate assignment?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         }
                     ]
                 },
@@ -350,19 +350,19 @@
                     "Links": [
                         {
                             "Title": "How do I apply to Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "I missed the application deadline. Can I still be admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "When will I know if I am admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         }
                     ]
                 },
@@ -371,19 +371,19 @@
                     "Links": [
                         {
                             "Title": "How much is tuition for Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "When is tuition due?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "Is financial aid available to Pathway students?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morefinancialaid"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morefinancialaid"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         }
                     ]
                 },
@@ -392,19 +392,19 @@
                     "Links": [
                         {
                             "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         },
                         {
                             "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#moreapplytobyui"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#moreapplytobyui"
                         },
                         {
                             "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuituition"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuituition"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         }
                     ]
                 },
@@ -413,19 +413,19 @@
                     "Links": [
                         {
                             "Title": "What courses do I take during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Am I required to go to the Pathway gatherings?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#moregatherings"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#moregatherings"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         }
                     ]
                 },
@@ -434,19 +434,19 @@
                     "Links": [
                         {
                             "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         },
                         {
                             "Title": "I need an alternate assignment - how do I get one?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "How do I qualify for an alternate assignment?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         }
                     ]
                 },
@@ -463,19 +463,19 @@
                     "Links": [
                         {
                             "Title": "How do I apply to Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "I missed the application deadline. Can I still be admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "When will I know if I am admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         }
                     ]
                 },
@@ -484,19 +484,19 @@
                     "Links": [
                         {
                             "Title": "How much is tuition for Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "When is tuition due?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "Is financial aid available to Pathway students?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morefinancialaid"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morefinancialaid"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         }
                     ]
                 },
@@ -505,19 +505,19 @@
                     "Links": [
                         {
                             "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         },
                         {
                             "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#moreapplytobyui"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#moreapplytobyui"
                         },
                         {
                             "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuituition"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuituition"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         }
                     ]
                 },
@@ -526,19 +526,19 @@
                     "Links": [
                         {
                             "Title": "What courses do I take during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Am I required to go to the Pathway gatherings?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#moregatherings"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#moregatherings"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         }
                     ]
                 },
@@ -547,19 +547,19 @@
                     "Links": [
                         {
                             "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         },
                         {
                             "Title": "I need an alternate assignment - how do I get one?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "How do I qualify for an alternate assignment?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         }
                     ]
                 },
@@ -576,19 +576,19 @@
                     "Links": [
                         {
                             "Title": "How do I apply to Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "I missed the application deadline. Can I still be admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "When will I know if I am admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         }
                     ]
                 },
@@ -597,19 +597,19 @@
                     "Links": [
                         {
                             "Title": "How much is tuition for Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "When is tuition due?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "Is financial aid available to Pathway students?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morefinancialaid"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morefinancialaid"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         }
                     ]
                 },
@@ -618,19 +618,19 @@
                     "Links": [
                         {
                             "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         },
                         {
                             "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#moreapplytobyui"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#moreapplytobyui"
                         },
                         {
                             "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuituition"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuituition"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         }
                     ]
                 },
@@ -639,19 +639,19 @@
                     "Links": [
                         {
                             "Title": "What courses do I take during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Am I required to go to the Pathway gatherings?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#moregatherings"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#moregatherings"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         }
                     ]
                 },
@@ -660,19 +660,19 @@
                     "Links": [
                         {
                             "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         },
                         {
                             "Title": "I need an alternate assignment - how do I get one?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "How do I qualify for an alternate assignment?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         }
                     ]
                 },
@@ -689,19 +689,19 @@
                     "Links": [
                         {
                             "Title": "How do I apply to Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "I missed the application deadline. Can I still be admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "When will I know if I am admitted?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html/#moreapply"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-enrollment.html#moreapply"
                         }
                     ]
                 },
@@ -710,19 +710,19 @@
                     "Links": [
                         {
                             "Title": "How much is tuition for Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "When is tuition due?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         },
                         {
                             "Title": "Is financial aid available to Pathway students?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morefinancialaid"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morefinancialaid"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html/#morepayments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-tuition.html#morepayments"
                         }
                     ]
                 },
@@ -731,19 +731,19 @@
                     "Links": [
                         {
                             "Title": "What degrees are available through the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         },
                         {
                             "Title": "What are the requirements for Pathway students who want to enter the BYU-Idaho Online Degree Program after Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#moreapplytobyui"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#moreapplytobyui"
                         },
                         {
                             "Title": "What is the tuition rate for the BYU-Idaho Online Degree Program?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuituition"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuituition"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html/#morebyuidegree"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-after-pathway.html#morebyuidegree"
                         }
                     ]
                 },
@@ -752,19 +752,19 @@
                     "Links": [
                         {
                             "Title": "What courses do I take during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Which institute courses do 18-30-year-old Pathway students take each semester during Pathway?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         },
                         {
                             "Title": "Am I required to go to the Pathway gatherings?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#moregatherings"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#moregatherings"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html/#morepathwaycourses"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-courses-gatherings.html#morepathwaycourses"
                         }
                     ]
                 },
@@ -773,19 +773,19 @@
                     "Links": [
                         {
                             "Title": "I am a student in Pathway's L Version. How do I find a speaking partner?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         },
                         {
                             "Title": "I need an alternate assignment - how do I get one?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "How do I qualify for an alternate assignment?",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morealternateassignments"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morealternateassignments"
                         },
                         {
                             "Title": "More ...",
-                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html/#morefindingpartner"
+                            "URL": "{{site.baseurl}}pages/contact-us/self-help-speaking-partners.html#morefindingpartner"
                         }
                     ]
                 },
