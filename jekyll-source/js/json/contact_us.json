@@ -794,5 +794,107 @@
                 }
             ]
         }
+    ],
+    "Country Code": [
+        {
+            "country": "AF",
+            "name": "Afghanistan",
+            "code": "+93"
+        },
+        {
+            "country": "AX",
+            "name": "Åland Islands",
+            "code": "+358 18"
+        }
+        {
+            "country": "AL",
+            "name": "Albania",
+            "code": "+355"
+        },
+        {
+            "country": "DZ",
+            "name": "Algeria",
+            "code": "+213"
+        },
+        {
+            "country": "AS",
+            "name": "American Samoa",
+            "code": "+1 684"
+        },
+        {
+            "country": "AD",
+            "name": "Andorra",
+            "code": "+376"
+        }
+        {
+            "country": "AO",
+            "name": "Angola",
+            "code": "+244"
+        },
+        {
+            "country": "AI",
+            "name": "Anguilla",
+            "code": "+1 264"
+        },
+        {
+            "country": "AQ",
+            "name": "Antarctica",
+            "code": ""
+        },
+        {
+            "country": "AG",
+            "name": "Antigua and Barbuda",
+            "code": "+1 268"
+        }
+        {
+            "country": "AR",
+            "name": "Argentina",
+            "code": "+54"
+        },
+        {
+            "country": "AM",
+            "name": "Armenia",
+            "code": "+374"
+        },
+        {
+            "country": "AW",
+            "name": "Aruba",
+            "code": "+297"
+        },
+        {
+            "country": "AU",
+            "name": "Australia",
+            "code": "+61"
+        }
+        {
+            "country": "AT",
+            "name": "Austria",
+            "code": "+43"
+        },
+        {
+            "country": "AZ",
+            "name": "Azerbaijan",
+            "code": "+994"
+        },
+        {
+            "country": "BS",
+            "name": "Bahamas",
+            "code": "+1 242"
+        },
+        {
+            "country": "BH",
+            "name": "Bahrain",
+            "code": "+973"
+        }
+        {
+            "country": "BD",
+            "name": "Bangladesh",
+            "code": "+880"
+        },
+        {
+            "country": "BB",
+            "name": "Barbados",
+            "code": "+1 246"
+        },
     ]
 }
