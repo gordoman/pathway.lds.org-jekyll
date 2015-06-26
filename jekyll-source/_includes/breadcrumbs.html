@@ -5,7 +5,7 @@
         <div id="breadCrumb" class="breadCrumb module">
             <ul>
                 <li class="first"><a href="{{site.baseurl}}">Home</a></li>
-                <li {% if (page.title == blank) %} class="last" {% endif %}>{{page.section | replace:"_", " "}}</li>
+                <li {% if (page.title == blank) %} class="last" {% endif %}>{% if (page.sectionURL != blank) %}<a href="{{site.baseurl}}{{page.sectionURL}}">{% endif %}{{page.section | replace:"_", " "}}{% if (page.sectionURL != blank) %}</a>{% endif %}</li>
                 {% for crumb in page.breadcrumbs %}
                 <li class="{% for attr in crumb.attributes %} {{attr}} {% endfor %}" ><a {% if (crumb.url != blank) %} href="{{crumb.url}}"{% endif %}>{{crumb.title}}</a></li>
                 {% endfor %}

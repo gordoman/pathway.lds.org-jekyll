@@ -1,0 +1,749 @@
+---
+---
+
+@import "global";
+@import "FunctionLibrary";
+@import "header-footer";
+@import "sidebar";
+@import "BreadCrumb";
+
+.help-page {
+//	For the 5 tabs on top.
+.contact-navigator {
+	position: relative;
+	margin: -1px -5px;
+	overflow: hidden;
+
+	.contact-tab {
+		display: table;
+		width: 	20%;
+		float: left;
+		text-align: center;
+		padding: 0 5px;
+
+		&.active {
+			.tab-inner {
+				background: white !important;
+				color: black;
+				border-bottom: 0 !important;
+				height: 70px;
+			}
+		}
+
+		.tab-inner {
+			position: relative;
+			display: table-cell;
+			border: black 1px solid;
+			text-transform: uppercase;
+			color: white;
+			letter-spacing: .09em;
+			padding: 3px 5px 11px 5px;
+			line-height: 130%;
+			height: 60px;
+			vertical-align: middle;
+			font-weight: bold;
+			text-decoration: none;
+
+			&:after {
+				content: "";
+				display: block;
+				position: absolute;
+				border: 7px transparent solid;
+				border-bottom-width: 0;
+				border-top-color: rgba(0,0,0,.4);
+				width: 0;
+				height: 0;
+				bottom: 4px;
+				margin-left: auto;
+				margin-right: auto;
+				left: 0;
+				right: 0;
+
+			}
+
+			&.orange {
+				background: $pathway-orange;
+				border-color: $pathway-orange;
+			}
+			&.turquoise {
+				background: $turquoise;
+				border-color: $turquoise;
+			}
+			&.red {
+				background: $red;
+				border-color: $red;
+			}
+			&.teal {
+				background: $teal;
+				border-color: $teal;
+			}
+			&.green {
+				background: $green;
+				border-color: $green;
+			}
+			&.navy_blue {
+				background: $navy_blue;
+				border-color: $navy_blue;
+			}
+
+			&:hover {
+				background: white;
+				color: black;
+				cursor: pointer;
+
+			}
+		}
+	}
+}
+
+//	For the content of the tabs on top.
+.tab-content {
+	.tab-pane {
+		border: 1px solid black;
+		overflow: hidden;
+		padding: 20px;
+
+//	For the image.
+		.img-tab {
+			background-repeat: no-repeat;
+			background-size: contain;
+			height:200px;
+		}
+
+		a {
+			display: inline-block;
+			width: 100%;
+			color: #222;
+		}
+
+//	For the middle tabs
+		.sub-tab {
+			padding-right: 0;
+			margin-right: 0;
+
+			a {
+				padding: 10px;
+
+				.italic {
+					font-style: italic;
+					font-size: 80%;
+				}
+			}
+
+			.arrow {
+				display: inline-block;
+				border-style: solid;
+				border-width: 6px 7px;
+				height: 0;
+				width: 0;
+				opacity: 0;
+			}
+
+			a.active .arrow {
+					opacity: 100;
+			}
+		}
+
+	//	For the links tabs
+		.last-tab {
+			padding: 20px 30px;
+			min-height: 250px;
+
+			a {
+				display: block;
+				margin: 15px 0;
+			}
+			
+			.bold {
+				text-transform: uppercase;
+				font-size: 80%;
+				font-weight: bold;
+
+				&:last-child {
+					text-decoration: underline;
+				}				
+			}
+		}
+
+		h4 {
+			letter-spacing: 2px;
+			margin-top: 0;
+			margin-bottom: 11px;
+		}
+
+		&.orange {
+			border-color: $pathway-orange;
+
+			.bold {
+				color: $pathway-orange;
+			}
+
+			#enrollment-icon {
+				background-image: url("{{site.baseurl}}img/contact-us/Have-a-Question/Enrollment-Icon.png");
+			}
+
+			.sub-tab {
+
+				a.active {
+					background-color: lighten($pathway-orange, 32%);
+				}
+
+				.arrow {
+					border-color: transparent transparent transparent $pathway-orange;
+				}
+			}
+
+			.last-tab {
+				background-color: lighten($pathway-orange, 32%);
+			}
+		}
+
+		&.turquoise {
+			border-color: $turquoise;
+
+			.bold {
+				color: $turquoise;
+			}
+
+			#tuition-icon {
+				background-image: url("{{site.baseurl}}img/contact-us/Have-a-Question/Tuition-Icon.png");
+			}
+
+			.sub-tab {
+
+				a.active {
+					background-color: #c9dee1;
+				}
+
+				.arrow {
+					border-color: transparent transparent transparent $turquoise;
+				}
+			}
+
+			.last-tab {
+				background-color: #c9dee1;
+			}
+		}
+
+		&.red {
+			border-color: $red;
+
+			.bold {
+				color: $red;
+			}
+
+			#after-pathway-icon {
+				background-image: url("{{site.baseurl}}img/contact-us/Have-a-Question/After-Pathway-Icon.png");
+			}
+
+			.sub-tab {
+
+				a.active {
+					background-color: lighten($red, 32%);
+				}
+
+				.arrow {
+					border-color: transparent transparent transparent $red;
+				}
+			}
+
+			.last-tab {
+				background-color: lighten($red, 32%);
+			}
+		}
+
+		&.teal {
+			border-color: $teal;
+
+			.bold {
+				color: darken($teal, 25%);
+			}
+
+			#courses-and-gatherings-icon {
+				background-image: url("{{site.baseurl}}img/contact-us/Have-a-Question/Courses-&-Gatherings-Icon.png");
+			}
+
+			.sub-tab {
+
+				a.active {
+					background-color: lighten($teal, 25%);
+				}
+
+				.arrow {
+					border-color: transparent transparent transparent darken($teal, 25%);
+				}
+			}
+
+			.last-tab {
+				background-color: lighten($teal, 25%);
+			}
+		}
+
+		&.green {
+			border-color: $green;
+
+			.bold {
+				color: $green;
+			}
+
+			#speaking-partners-icon {
+				background-image: url("{{site.baseurl}}img/contact-us/Have-a-Question/Speaking-Partners-Icon.png");
+			}
+
+			.sub-tab {
+
+				a.active {
+					background-color: lighten($green, 35%);
+				}
+
+				.arrow {
+					border-color: transparent transparent transparent $green;
+				}
+			}
+
+			.last-tab {
+				background-color: lighten($green, 35%);
+			}
+		}
+	}
+}
+
+//	For the other topics section.
+.other-topics-icon {
+	display: block;
+	background-image: url("{{site.baseurl}}img/contact-us/Other-Topics.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50px;
+	width: 50px;
+}
+
+.secondary-section {
+	border-top:1px solid black;
+	position: relative;
+	margin:50px 0 11px 75px;
+	padding-top:30px;
+	color: #222;
+	h3 {
+		display: block;
+		position: absolute;
+		top:-8px;
+		text-transform: uppercase;
+		font-size: 125%;
+		font-weight: bold;
+		letter-spacing: 2px;
+		background:white;
+		margin: 0;
+		padding-right: 15px;
+	}
+	ul {
+		list-style: none;
+		li {
+			line-height: 250%;
+			color: #222;
+			a {
+				color: #222;
+			}
+		}
+	}
+
+	.side-icon {
+		position: absolute;
+		top: -25px;
+		left: -60px;
+	}
+}
+
+//	For the need more help section.
+.more-help-header {
+	display: block;
+	position: relative;
+
+	.more-help {
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		margin: 30px 0 30px 60px;
+	}
+
+}
+
+.more-help-icon {
+	display: block;
+	background-image: url("{{site.baseurl}}img/contact-us/Need-More-Help.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50px;
+	width: 50px;
+}
+}
+
+//CONTACT US STYLES START HERE
+
+
+.contact-us-page { //Wrap all styles for this page
+.bottom-border {
+	border-bottom: 1px solid black;
+}
+
+.select-section {
+	padding: 20px 0;
+}
+
+#user-type, #help-type {
+	display: inline-block;
+	width: initial;
+	margin-left: 8px;
+}
+// ****************************************************************************
+// for the self help suggestions section.
+.self-help-list{
+	.item {
+		width: 49%;
+  		padding: 5px 20px 5px 0;
+  		display: inline-block;
+  		vertical-align: top;
+	}
+}
+
+.self-help-header{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: $red;
+	letter-spacing: 1px;
+	margin-top: 25px;
+	margin-bottom: 8px;
+}
+
+.question-close {
+	display: none;
+	background: green;
+	color: white;
+	line-height: 24px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 26px;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid #666;
+	border-radius: 12px;
+
+	&:hover {
+		text-decoration: none;
+		color: white;
+	}
+}
+
+.show-question {
+	display: none;
+
+	div {
+		float: left;
+		text-align: left;
+		position: relative;
+		background-color: white;
+		display: block;
+
+		&:only-child {
+			position: fixed;
+			top: 40%;
+			left: 25%;
+			opacity: 100%;
+			background-color: white;
+			width: 60%;
+			padding: 20px;
+			border-radius: 20px;
+			z-index: 100;
+			outline: 9999px solid rgba(0,0,0,0.5);
+		}
+
+		&.hidden {
+			display: none;
+		}
+	}
+
+	.bold {
+		font-weight: bold;
+	}
+
+	.italic {
+		font-style: italic;
+	}
+
+	.small {
+		font-size: 10px;
+	}
+
+	.green {
+		color: green;
+	}
+}
+
+// ****************************************************************************
+
+// ****************************************************************************
+// for the more help section.
+.more-help-header {
+	display: block;
+	position: relative;
+	overflow: hidden;
+
+	.more-help {
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		margin: 30px 10px 30px 60px;
+	}
+
+	.more-help-icon {
+		display: block;
+		position: absolute;
+		background-image: url("{{site.baseurl}}img/contact-us/Need-More-Help.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 50px;
+		width: 50px;
+		top: 12px;
+	}
+}
+// ****************************************************************************
+
+// ****************************************************************************
+// for the contact mode icons.
+.icons {
+	height: 160px;
+}
+
+.iconic {
+	display: block;
+	height: 150px;
+
+	.icon-btn {
+   		cursor: pointer;
+   		margin: auto;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	.recommended {
+		display: block;
+		height: 120px;
+		margin: 0;
+		padding: 0;
+
+		.icon-btn {
+			border: solid 1px $red;
+		}
+
+		&:after {
+			content: "recommended";
+	        text-transform: uppercase;
+	        width:120px;
+	        font-size: 9px;
+	        letter-spacing: 0.09em;
+			background-color: $red;
+			color: white;
+			display: block;
+			text-align: center;
+			border: solid 1px $red;
+			margin: 0 auto;
+			padding: 3px 0;
+		}
+	}
+
+	div:not(.recommended) {
+		display: block;
+		height: 120px;
+	}
+
+	#Phone {
+		background-image: url("{{site.baseurl}}img/contact-us/Phone.png");
+		display: block;		
+		background-repeat: no-repeat;
+		background-position: 50% 45%;
+		height: 110px;
+		width: 120px;
+
+		&:hover {
+			background-image: url("{{site.baseurl}}img/contact-us/Phone_hover.png");
+		}
+	}
+
+	#Email {
+		background-image: url("{{site.baseurl}}img/contact-us/Email.png");
+		display: block;		
+		background-repeat: no-repeat;
+		background-position: 65% 61%;
+		height: 110px;
+		width: 120px;
+
+		&:hover {
+			background-image: url("{{site.baseurl}}img/contact-us/Email_hover.png");
+		}
+	}
+
+	#Chat {
+		background-image: url("{{site.baseurl}}img/contact-us/Chat.png" );
+		display: block;		
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		height: 110px;
+		width: 120px;
+
+		&:hover {
+			background-image: url("{{site.baseurl}}img/contact-us/Chat_hover.png");
+		}
+	}	
+}
+// ****************************************************************************
+
+// ****************************************************************************
+// for the contact by e-mail form.
+.info-email {
+	position: relative;
+
+	.icon {
+		display: block;
+	}
+
+	.contact-email-form {
+		//form styles
+	}
+
+	input[type=submit] {
+		background-color: $turquoise;
+	}
+}
+// ****************************************************************************
+
+// ****************************************************************************
+// for the contact by phone box
+.info-phone {
+
+	.icon img {
+		display:block;
+		padding: 0 8px 7px 8px;
+	}
+	
+	// .numbers-title {
+	// 	display: block;
+	// 	background-color: red;
+	// 	color: white;
+	// 	font-size: 80%;
+	// 	padding: 5px 20px;
+	// 	text-transform: uppercase;
+	// }
+
+	.numbers-box {
+		// border: 1px solid $red;
+		border-left: 1px solid black;
+		padding: 11px 20px;
+		padding-left: 50px;
+	}
+
+	.phone-list {
+		margin-bottom: 30px;
+	}
+
+	.bold {
+		font-weight: bold;
+	}
+
+	.italic {
+		font-style: italic;
+
+	}
+
+	.small {
+		font-size: 10px;
+	}
+}
+// ****************************************************************************
+}
+
+
+
+//SELF HELP PAGES STYLES START
+
+.self-help-page { //WRAPPING ALL SELF HELP PAGE STYLES
+/* Styles Here */
+h1 {
+	margin-top: 0;
+	margin-bottom: 35px;
+}
+h5 {
+	margin-top: 40px;
+	font-size: 90%;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+}
+hr {
+	margin: 0;
+}
+
+
+
+.pf-page-header {
+	display: none;
+
+	img {
+		margin-top: 0;
+	}
+
+	&.show {
+		display: block;
+	}
+}
+
+.pf-section {
+	display: none;
+
+	&.show {
+		display: block;
+	}
+}
+
+.accordion-heading {
+	display: block;
+	position: relative;
+	margin: 20px 0 5px 0;
+	cursor: pointer;
+	padding-left: 15px;
+
+	&:before{
+		content:"";
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 4px;
+		height: 0;
+		width: 0;
+		border: 5px solid transparent;
+		border-left-color: black;
+		border-right-width: 0;
+		transition: -ms-transform .5s, -webkit-transform .5s, transform .5s;
+	}
+
+	&.active:before {
+	    -ms-transform: rotate(90deg); /* IE 9 */
+	    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	    transform: rotate(90deg);
+	}
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.answer {
+	padding: 8px 0 10px 15px;
+	border-bottom: 1px #222 solid;
+}
+
+}
+
+
