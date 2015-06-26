@@ -896,5 +896,405 @@
             "name": "Barbados",
             "code": "+1 246"
         },
+        {
+            "country": "BY",
+            "name": "Belarus",
+            "code": "+375"
+        },
+        {
+            "country": "BE",
+            "name": "Belgium",
+            "code": "+32"
+        }
+        {
+            "country": "BZ",
+            "name": "Belize",
+            "code": "+501"
+        },
+        {
+            "country": "BJ",
+            "name": "Benin",
+            "code": "+229"
+        },
+        {
+            "country": "BM",
+            "name": "Bermuda",
+            "code": "+1 441"
+        },
+        {
+            "country": "BT",
+            "name": "Bhutan",
+            "code": "+975"
+        }
+        {
+            "country": "BO",
+            "name": "Bolivia, Plurinational State of",
+            "code": "+591"
+        },
+        {
+            "country": "BQ",
+            "name": "Bonaire, Sint Eustatius and Saba",
+            "code": "+599 7"
+        },
+        {
+            "country": "BA",
+            "name": "Bosnia and Herzegovina",
+            "code": "+387"
+        },
+        {
+            "country": "BW",
+            "name": "Botswana",
+            "code": "+267"
+        }
+        {
+            "country": "BV",
+            "name": "Bouvet Island",
+            "code": ""
+        },
+        {
+            "country": "BR",
+            "name": "Brazil",
+            "code": "+55"
+        },
+        {
+            "country": "IO",
+            "name": "British Indian Ocean Territory",
+            "code": "+246"
+        },
+        {
+            "country": "BN",
+            "name": "Brunei Darussalam",
+            "code": "+673"
+        }
+        {
+            "country": "BG",
+            "name": "Bulgaria",
+            "code": "+359"
+        },
+        {
+            "country": "BF",
+            "name": "Burkina Faso",
+            "code": "+226"
+        },
+        {
+            "country": "BI",
+            "name": "Burundi",
+            "code": "+257"
+        },
+        {
+            "country": "KH",
+            "name": "Cambodia",
+            "code": "+855"
+        }
+        {
+            "country": "CM",
+            "name": "Cameroon",
+            "code": "+237"
+        },
+        {
+            "country": "CA",
+            "name": "Canada",
+            "code": "+1"
+        },
+        {
+            "country": "CV",
+            "name": "Cape Verde",
+            "code": "+238"
+        },
+        {
+            "country": "KY",
+            "name": "Cayman Islands",
+            "code": "+1 345"
+        }
+        {
+            "country": "CF",
+            "name": "Central African Republic",
+            "code": "+236"
+        },
+        {
+            "country": "TD",
+            "name": "Chad",
+            "code": "+235"
+        },
+        {
+            "country": "CL",
+            "name": "Chile",
+            "code": "+56"
+        },
+        {
+            "country": "CN",
+            "name": "China",
+            "code": "+86"
+        }
+        {
+            "country": "CX",
+            "name": "Christmas Island",
+            "code": "+61"
+        },
+        {
+            "country": "CC",
+            "name": "Cocos (Keeling) Islands",
+            "code": "+61"
+        },
+        {
+            "country": "CO",
+            "name": "Colombia",
+            "code": "+57"
+        },
+        {
+            "country": "KM",
+            "name": "Comoros",
+            "code": "+269"
+        }
+        {
+            "country": "CG",
+            "name": "Congo",
+            "code": "+242"
+        },
+        {
+            "country": "CD",
+            "name": "Congo, the Democratic Republic of the",
+            "code": "+243"
+        },
+        {
+            "country": "CK",
+            "name": "Cook Islands",
+            "code": "+682"
+        },
+        {
+            "country": "CR",
+            "name": "Costa Rica",
+            "code": "+506"
+        }
+        {
+            "country": "CI",
+            "name": "Côte d'Ivoire",
+            "code": "+225"
+        },
+        {
+            "country": "HR",
+            "name": "Croatia",
+            "code": "+385"
+        },
+        {
+            "country": "CU",
+            "name": "Cuba",
+            "code": "+53"
+        },
+        {
+            "country": "CW",
+            "name": "Curaçao",
+            "code": "+599 9"
+        }
+        {
+            "country": "CY",
+            "name": "Cyprus",
+            "code": "+357"
+        },
+        {
+            "country": "CZ",
+            "name": "Czech Republic",
+            "code": "+420"
+        },
+        {
+            "country": "DK",
+            "name": "Denmark",
+            "code": "+45"
+        },
+        {
+            "country": "DJ",
+            "name": "Djibouti",
+            "code": "+253"
+        }
+        {
+            "country": "DM",
+            "name": "Dominica",
+            "code": "+1 767"
+        },
+        {
+            "country": "DO",
+            "name": "Dominican Republic",
+            "code": "+1 809"
+        },
+        {
+            "country": "EC",
+            "name": "Ecuador",
+            "code": "+593"
+        },
+        {
+            "country": "EG",
+            "name": "Egypt",
+            "code": "+20"
+        }
+        {
+            "country": "SV",
+            "name": "El Salvador",
+            "code": "+503"
+        },
+        {
+            "country": "GQ",
+            "name": "Equatorial Guinea",
+            "code": "+240"
+        },
+        {
+            "country": "ER",
+            "name": "Eritrea",
+            "code": "+291"
+        },
+        {
+            "country": "EE",
+            "name": "Estonia",
+            "code": "+372"
+        }
+        {
+            "country": "ET",
+            "name": "Ethiopia",
+            "code": "+251"
+        },
+        {
+            "country": "FK",
+            "name": "Falkland Islands (Malvinas)",
+            "code": "+500"
+        },
+        {
+            "country": "FO",
+            "name": "Faroe Islands",
+            "code": "+298"
+        },
+        {
+            "country": "FJ",
+            "name": "Fiji",
+            "code": "+679"
+        }
+        {
+            "country": "FI",
+            "name": "Finland",
+            "code": "+358"
+        },
+        {
+            "country": "FR",
+            "name": "France",
+            "code": "+33"
+        },
+        {
+            "country": "GF",
+            "name": "French Guiana",
+            "code": "+594"
+        },
+        {
+            "country": "PF",
+            "name": "French Polynesia",
+            "code": "+689"
+        }
+        {
+            "country": "TF",
+            "name": "French Southern Territories",
+            "code": ""
+        },
+        {
+            "country": "GA",
+            "name": "Gabon",
+            "code": "+241"
+        },
+        {
+            "country": "GM",
+            "name": "Gambia",
+            "code": "+220"
+        },
+        {
+            "country": "GE",
+            "name": "Georgia",
+            "code": "+995"
+        }
+        {
+            "country": "DE",
+            "name": "Germany",
+            "code": "+49"
+        },
+        {
+            "country": "GH",
+            "name": "Ghana",
+            "code": "+233"
+        },
+        {
+            "country": "GI",
+            "name": "Gibraltar",
+            "code": "+350"
+        },
+        {
+            "country": "GR",
+            "name": "Greece",
+            "code": "+30"
+        }
+        {
+            "country": "GL",
+            "name": "Greenland",
+            "code": "+299"
+        },
+        {
+            "country": "GD",
+            "name": "Grenada",
+            "code": "+1 473"
+        },
+        {
+            "country": "GP",
+            "name": "Gadeloupe",
+            "code": "+590"
+        },
+        {
+            "country": "GU",
+            "name": "Guam",
+            "code": "+1 671"
+        }
+        {
+            "country": "GT",
+            "name": "Guatemala",
+            "code": "+502"
+        },
+        {
+            "country": "GG",
+            "name": "Guernsey",
+            "code": "+44"
+        },
+        {
+            "country": "GN",
+            "name": "Guinea",
+            "code": "+224"
+        },
+        {
+            "country": "GW",
+            "name": "Guinea-Bissau",
+            "code": "+245"
+        }
+        {
+            "country": "GY",
+            "name": "Guyana",
+            "code": "+592"
+        },
+        {
+            "country": "HT",
+            "name": "Haiti",
+            "code": "+509"
+        },
+        {
+            "country": "HM",
+            "name": "Heard Island and McDonald Islands",
+            "code": ""
+        },
+        {
+            "country": "VA",
+            "name": "Holy See (Vatican City State)",
+            "code": ""
+        }
+        {
+            "country": "HN",
+            "name": "Honduras",
+            "code": "+504"
+        },
+        {
+            "country": "HK",
+            "name": "Hong Kong",
+            "code": "+852"
+        },
     ]
 }
