@@ -98,12 +98,29 @@ $("#help-type").change(function(){
 
 $("#countryselect").change(function(){
 	var country = $("#countryselect").val();
+	console.log($("#countryselect"));
 	$.each( JSONCountryCode, function(key5, val5) {
 		if (country === val5.CountryName) {
-			console.log(val5.CountryCode);
 			$("#countrycode").val(val5.CountryCode);
 		}
 	});
+});
+
+$("[required]").change(function(){
+	var filled = true;
+
+	$("[required]").each(function() {
+		if ($(this).val() == "") {
+			filled = false;
+		}
+	});
+	if (filled != false) {
+		$("[type=submit]").removeAttr("disabled");		
+	}
+	else 
+	{
+		$("[type=submit]").attr("disabled", "");		
+	}
 });
 
 $('document').ready(function() {

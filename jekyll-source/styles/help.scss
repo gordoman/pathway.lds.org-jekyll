@@ -625,7 +625,12 @@
 	}
 
 	input[type=submit] {
-		background-color: $turquoise;
+		background-color: $red;
+		margin-left: 84%;
+
+		&[disabled] {
+			background-color: gray;
+		}
 	}
 }
 // ****************************************************************************
