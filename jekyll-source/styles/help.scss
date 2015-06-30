@@ -8,6 +8,10 @@
 @import "BreadCrumb";
 
 .help-page {
+h1 {
+	margin: 16px 0;
+}
+
 //	For the 5 tabs on top.
 .contact-navigator {
 	position: relative;
