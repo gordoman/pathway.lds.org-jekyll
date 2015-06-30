@@ -2,6 +2,7 @@
 ---
 
 var JSONdata = [];
+var JSONCountryCode = [];
 
 $("#Phone").click(function(){
 	$("#info-phone").toggleClass("hidden");
@@ -95,6 +96,14 @@ $("#help-type").change(function(){
 	});
 });
 
+$("#countryselect").change(function(){
+	var country = $("#countryselect").val();
+	$.each( JSONCountryCode, function(key5, val5) {
+		if (country = val5.CountryName) {
+			$("#countrycode").val(val5.CountryCode);
+		}
+	});
+});
 
 $('document').ready(function() {
 	// Populate Page with JSON Data
@@ -103,6 +112,7 @@ $('document').ready(function() {
 		//set recommended contact option
 		$("#"+data.recommended).parent().addClass("recommended");
 
+		//set the audience values
 		JSONdata = data.data;
 		$.each( JSONdata, function(key, val) {
 			$("#user-type").append("<option>" + val.Audience + "</option>")
@@ -115,9 +125,20 @@ $('document').ready(function() {
 			$("#user-type").change();
 		};
 
+		//set the countries values
+		JSONCountryCode = data.codes;
+		$.each(JSONCountryCode, function(key4, val4) {
+			$("#countryselect").append("<option>" + val4.CountryName + "</option>")
+		});
+
+		//autopopulate the countrycode
+		if ($("#countryselect").val() != "--") {
+			$("#countryselect").change();
+		}
+
 	}).fail(function() {
 		console.log("Could not load JSON");
-		$("#user-type, #help-type").append("<option disabled='disabled'>ERROR: Could not load database</option>");
+		$("#user-type, #help-type, #countryselect").append("<option disabled='disabled'>ERROR: Could not load database</option>");
 	}).always(function(){
 		$("[data-temp-id='loading']").remove();
 	});

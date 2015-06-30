@@ -614,6 +614,16 @@
 		//form styles
 	}
 
+	input[name=countrycode] {
+		display: inline-block;
+		width: 24%;
+	}
+
+	input[name=phonenumber] {
+		display: inline-block;
+		width: 75%;
+	}
+
 	input[type=submit] {
 		background-color: $turquoise;
 	}
