@@ -99,7 +99,8 @@ $("#help-type").change(function(){
 $("#countryselect").change(function(){
 	var country = $("#countryselect").val();
 	$.each( JSONCountryCode, function(key5, val5) {
-		if (country = val5.CountryName) {
+		if (country === val5.CountryName) {
+			console.log(val5.CountryCode);
 			$("#countrycode").val(val5.CountryCode);
 		}
 	});
