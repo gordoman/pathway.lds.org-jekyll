@@ -5,6 +5,7 @@
     "data": [
         {
             "Audience": "Current Pathway Student",
+            "LDS_Credentials": true,
             "Topics": [
                 {
                     "Topic": "Enrollment",
@@ -118,6 +119,7 @@
         },
         {
             "Audience": "Prospective Pathway Student",
+            "LDS_Credentials": false,
             "Topics": [
                 {
                     "Topic": "Enrollment",
@@ -231,6 +233,7 @@
         },
         {
             "Audience": "Pathway Missionary",
+            "LDS_Credentials": true,
             "Topics": [
                 {
                     "Topic": "Enrollment",
@@ -344,6 +347,7 @@
         },
         {
             "Audience": "Priesthood/Ecclesiastical Leader",
+            "LDS_Credentials": false,
             "Topics": [
                 {
                     "Topic": "Enrollment",
@@ -457,6 +461,7 @@
         },
         {
             "Audience": "Institute Director",
+            "LDS_Credentials": false,
             "Topics": [
                 {
                     "Topic": "Enrollment",
@@ -570,6 +575,7 @@
         },
         {
             "Audience": "PEF/Self-Reliance Manager",
+            "LDS_Credentials": false,
             "Topics": [
                 {
                     "Topic": "Enrollment",
@@ -683,6 +689,7 @@
         },
         {
             "Audience": "Other",
+            "LDS_Credentials": false,
             "Topics": [
                 {
                     "Topic": "Enrollment",

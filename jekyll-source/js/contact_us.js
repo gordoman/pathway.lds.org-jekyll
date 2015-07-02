@@ -86,7 +86,7 @@ $("#help-type").change(function(){
 					$("#selfHelpList [data-temp-id='database']").remove();
 					//populate the topics selection dropdown
 					$.each(val2.Links, function(k, v) {
-						$("#selfHelpList").append("<div data-temp-id='database' class='item'><a href='" + v.URL + "'>" + v.Title + "</a></div>")
+						$("#selfHelpList").append("<div data-temp-id='database' class='item'><a target='_blank' href='" + v.URL + "'>" + v.Title + "</a></div>")
 					});
 					return false;
 				}
