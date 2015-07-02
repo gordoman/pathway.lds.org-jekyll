@@ -6,6 +6,7 @@
 @import "header-footer";
 @import "sidebar";
 @import "BreadCrumb";
+@import "content_body";
 
 .help-page {
 	padding-bottom: 1em;
@@ -712,6 +713,7 @@ hr {
 
 .pf-page-header {
 	display: none;
+	margin-top: 22px;
 
 	img {
 		margin-top: 0;
@@ -736,6 +738,7 @@ hr {
 	margin: 20px 0 5px 0;
 	cursor: pointer;
 	padding-left: 15px;
+
 
 	&:before{
 		content:"";
